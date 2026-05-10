@@ -77,10 +77,41 @@ Leader (capi) → 任务拆解
 | **Windsurf** | Flow State | 持续开发 |
 | **Bolt.new** | 全栈生成 | 快速原型 |
 | **Context Hub** | 知识管理 | 学习积累 |
+| **InsForge** | 开源后端平台 | 全栈应用开发 |
+| **jcode** | Rust 编码 Agent | 高性能项目 |
+| **iFlyAgent** | 字节跳动 Agent | 电商/生产场景 |
+
+---
+
+## 2026 年 05 月新出现工具
+
+### Agent 编排框架
+
+| 工具 | 描述 | GitHub 星标 |
+|------|------|-------------|
+| **ruflo** | 多 Agent 编排平台，支持 Claude Code/Codex | 新兴项目 |
+| **TradingAgents** | 多 Agent 金融交易框架 | 新兴项目 |
+| **local-deep-research** | 本地深度研究 (~95% SimpleQA) | 新兴项目 |
+
+### 编码 Agent
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **jcode** | Rust 编码 Agent | 2,710 stars/week |
+| **DeepSeek-TUI** | 终端 DeepSeek 客户端 | 终端应用 |
+| **InsForge** | 开源后端平台 | 数据库/Auth/存储/计算 |
+
+### 技能库
+
+| 工具 | 描述 | 来源 |
+|------|------|------|
+| **browserbase/skills** | Browserbase 官方技能 | 官方 |
+| **mattpocock/skills** | 工程技能集合 | 独立开发者 |
+| **addyosmani/agent-skills** | 生产级工程技能 | Google |
 
 ---
 
 ## 持续更新
 
-- 最后更新: 2025-03-31
+- 最后更新: 2026-05-11
 - 更新频率: 每周

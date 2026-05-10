@@ -80,7 +80,50 @@
 | 日期 | 更新内容 |
 |------|----------|
 | 2025-03-31 | 初始版本 |
-| 2025-04-07 | (待更新) |
+| 2026-05-11 | 更新 Hugging Face  trending 模型、排行榜信息 |
+
+---
+
+## 2026 年 05 月主流模型动态
+
+### Hugging Face Trending 模型 (Top 10)
+
+| 排名 | 模型 | 参数量 | 下载量 | 特点 |
+|------|------|--------|-------|------|
+| 1 | SulphurAI/Sulphur-2-base | 9B | 144k | 视频生成 |
+| 2 | Zyphra/ZAYA1-8B | 8B | 44.8k | 文本生成 |
+| 3 | deepseek-ai/DeepSeek-V4-Pro | 862B | 1.34M | 大型多模态 |
+| 4 | google/gemma-4-31B-it-assistant | 31B | 56.6k | Google 助手 |
+| 5 | Qwen/Qwen3.6-27B | 28B | 2.27M | 阿里开源 |
+| 6 | Qwen/Qwen3.6-35B-A3B | 36B | 3.67M | 阿里 MoE |
+| 7 | google/gemma-4-26B-A4B-it | 26B | 40.9k | Google 小型 |
+| 8 | deepseek-ai/DeepSeek-V4-Flash | 158B | 1.07M | 高效版本 |
+| 9 | XiaomiMiMo/MiMo-V2.5-Pro | 1T | 40.1k | 小米万亿参数 |
+| 10 | mistralai/Mistral-Medium-3.5-128B | 128B | 40.6k | Mistral 中型 |
+
+### 重点模型更新
+
+#### DeepSeek-V4 系列
+- **DeepSeek-V4-Pro**: 862B 参数，1.34M 下载，顶级多模态
+- **DeepSeek-V4-Flash**: 158B 参数，高效版本
+
+#### Qwen3.6 系列 (阿里)
+- **Qwen3.6-27B**: 2.27M 下载量，最热门开源模型
+- **Qwen3.6-35B-A3B**: 3.67M 下载，MoE 架构
+
+#### Google Gemma 4
+- **gemma-4-31B-it**: 33B，Google 最强
+- **gemma-4-26B-A4B**: 26B + A3B 蒸馏
+
+### 小模型专精榜 (更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Qwen2.5-Coder | 32B | 代码生成 | ⭐⭐⭐⭐ | 开源最强代码模型 |
+| Qwen3.6-27B | 28B | 通用 | ⭐⭐⭐⭐⭐ | 综合最强开源 |
+| DeepSeek-V4-Flash | 158B | 高效推理 | ⭐⭐⭐⭐ | 性价比高 |
+| gemma-4-26B-A4B | 26B | 指令跟随 | ⭐⭐⭐⭐ | Google 小型 |
+| Nemotron-3-Nano-Omni | 30B | 多模态 | ⭐⭐⭐⭐ | NVIDIA |
 
 ---
 
