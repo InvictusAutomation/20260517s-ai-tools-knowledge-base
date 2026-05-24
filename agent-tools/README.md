@@ -92,6 +92,7 @@ Leader (capi) → 任务拆解
 | **ruflo** | 多 Agent 编排平台，支持 Claude Code/Codex | 新兴项目 |
 | **TradingAgents** | 多 Agent 金融交易框架 | 新兴项目 |
 | **local-deep-research** | 本地深度研究 (~95% SimpleQA) | 新兴项目 |
+| **hermes-agent** | 可成长的 Agent 框架 | NousResearch |
 
 ### 编码 Agent
 
@@ -100,14 +101,31 @@ Leader (capi) → 任务拆解
 | **jcode** | Rust 编码 Agent | 2,710 stars/week |
 | **DeepSeek-TUI** | 终端 DeepSeek 客户端 | 终端应用 |
 | **InsForge** | 开源后端平台 | 数据库/Auth/存储/计算 |
+| **free-claude-code** | 免费 Claude Code 终端 | 开源替代 |
 
-### 技能库
+### 技能库 (重点更新)
 
 | 工具 | 描述 | 来源 |
 |------|------|------|
-| **browserbase/skills** | Browserbase 官方技能 | 官方 |
+| **addyosmani/agent-skills** | 生产级工程技能 | Google Chrome 团队 |
 | **mattpocock/skills** | 工程技能集合 | 独立开发者 |
-| **addyosmani/agent-skills** | 生产级工程技能 | Google |
+| **ComposioHQ/awesome-codex-skills** | Codex 技能集 | 官方 |
+| **zilliztech/claude-context** | 代码搜索 MCP | Milvus |
+| **maigret** | 用户名 OSINT 工具 | 3000+ 站点 |
+
+### 浏览器自动化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **CloakBrowser** | 反检测 Chromium | 30/30 测试通过 |
+| **hyperframes** | HeyGen 视频生成框架 | Agent 专用 |
+
+### 视频/媒体
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **Pixelle-Video** | AI 全自动短视频引擎 | 全自动化 |
+| **Open-Generative-AI** | 开源图像视频生成 | 200+ 模型 |
 
 ## 2026 年 05 月新兴工具 (Trending)
 
