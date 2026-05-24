@@ -109,9 +109,21 @@ Leader (capi) → 任务拆解
 | **mattpocock/skills** | 工程技能集合 | 独立开发者 |
 | **addyosmani/agent-skills** | 生产级工程技能 | Google |
 
+## 2026 年 05 月新兴工具 (Trending)
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **codegraph** | Claude Code/Codex/Cursor 预索引代码知识图谱 | 减少 token 和工具调用，100%本地 |
+| **CloakBrowser** | 反检测 Chromium (30/30 测试通过) | Playwright 替代品 |
+| **agentmemory** | 编码 Agent 持久化内存 | 基于真实世界基准测试 |
+| **awesome-codex-skills** | Codex 技能精选列表 | ComposioHQ 出品 |
+| **sandcastle** | TypeScript 沙箱编码 Agent 编排 | mattpocock 出品 |
+| **ViMax** | Agentic 视频生成 (导演+编剧+制片+生成) | HKUDS 出品 |
+| **codex-free-router** | 连接多个免费 AI 提供商 | 40+ 提供商自动 fallback |
+
 ---
 
 ## 持续更新
 
-- 最后更新: 2026-05-11
+- 最后更新: 2026-05-25
 - 更新频率: 每周

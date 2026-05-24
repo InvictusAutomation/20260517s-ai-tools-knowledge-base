@@ -80,9 +80,8 @@
 | 日期 | 更新内容 |
 |------|----------|
 | 2025-03-31 | 初始版本 |
-| 2026-05-11 | 更新 Hugging Face  trending 模型、排行榜信息 |
-
----
+| 2026-05-11 | 更新 Hugging Face trending 模型、排行榜信息 |
+| 2026-05-25 | 更新 GitHub Trending AI 项目、主流模型动态 |
 
 ## 2026 年 05 月主流模型动态
 
@@ -124,6 +123,21 @@
 | DeepSeek-V4-Flash | 158B | 高效推理 | ⭐⭐⭐⭐ | 性价比高 |
 | gemma-4-26B-A4B | 26B | 指令跟随 | ⭐⭐⭐⭐ | Google 小型 |
 | Nemotron-3-Nano-Omni | 30B | 多模态 | ⭐⭐⭐⭐ | NVIDIA |
+
+### GitHub Trending AI 项目 (2026-05)
+
+| 排名 | 项目 | 描述 | 趋势 |
+|------|------|------|------|
+| 1 | mattpocock/skills | Claude Code 工程技能 | 🔥上升 |
+| 2 | codegraph | 代码知识图谱 | 🔥新贵 |
+| 3 | CloakBrowser | 反检测浏览器 | 🔥新贵 |
+| 4 | agentmemory | Agent 持久化内存 | 🔥上升 |
+| 5 | academic-research-skills | 学术研究技能 | 🔥新贵 |
+| 6 | awesome-codex-skills | Codex 技能精选 | 🔥上升 |
+| 7 | free-claude-code | 免费 Claude Code | 🔥新贵 |
+| 8 | andrej-karpathy-skills | Karpathy 技能 | 🔥新贵 |
+| 9 | ViMax | Agentic 视频生成 | 🔥新贵 |
+| 10 | 9router | 免费 AI 路由 | 🔥新贵 |
 
 ---
 
