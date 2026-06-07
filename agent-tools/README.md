@@ -83,6 +83,54 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 06 月新出现工具 (GitHub Trending)
+
+### Agent 性能优化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **harness** | Agent 性能优化系统 | Skills, instincts, memory, security |
+| **headroom** | Token 压缩工具 | 60-95% 更少 token |
+| **oh-my-pi** | 终端 AI 编码 Agent | hash-anchored edits |
+
+### 记忆与知识
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **supermemory** | 超快记忆引擎 | Memory API for AI |
+| **fff** | 文件搜索工具 | 最快最准的 AI 文件搜索 |
+
+### 浏览器与自动化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **Agent-Reach** | 互联网视觉 Agent | 读取 Twitter, Reddit, YouTube 等 |
+| **CloakBrowser** | 反检测 Chromium | 30/30 测试通过 |
+
+### 技能库
+
+| 工具 | 描述 | 来源 |
+|------|------|------|
+| **last30days-skill** | 30天内研究技能 | Reddit, X, YouTube, HN |
+| **taste-skill** | AI 品味提升 | 避免生成无聊内容 |
+| **compound-engineering-plugin** | 复合工程插件 | Claude Code / Codex / Cursor |
+
+### 视频与语音
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **Open-LLM-VTuber** | 开源 VTuber | 免手语音交互 + Live2D |
+| **MoneyPrinterTurbo** | 短视频生成 | 一键生成高清视频 |
+
+### Agent 编排
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **hermes-agent** | 成长型 Agent | NousResearch |
+| **revfactory/harness** | 元技能设计 | 定义专业 Agent 团队 |
+
+---
+
 ## 2026 年 05 月新出现工具
 
 ### Agent 编排框架
@@ -143,5 +191,5 @@ Leader (capi) → 任务拆解
 
 ## 持续更新
 
-- 最后更新: 2026-05-25
+- 最后更新: 2026-06-08
 - 更新频率: 每周

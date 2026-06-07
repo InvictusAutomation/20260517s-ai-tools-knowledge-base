@@ -21,7 +21,7 @@
 | **代码能力** | LeetCode, HumanEval, MBPP |
 | **推理能力** | 数学、逻辑、 ARC |
 | **知识广度** | MMLU, BigBench |
-| **长上下文** |大海捞针、VMPR |
+| **长上下文** |大海捞针、VMPR|
 | **中文能力** | CMMLU, C-Eval |
 | **工具使用** | API 调用、函数执行 |
 | **Agent 能力** | 任务规划、自主执行 |
@@ -54,6 +54,54 @@
 | 2025-03-31 | 初始版本 |
 | 2026-05-11 | 更新 Hugging Face trending 模型、排行榜信息 |
 | 2026-05-25 | 更新 GitHub Trending AI 项目、主流模型动态 |
+| 2026-06-08 | 更新 Hugging Face trending 代码模型 |
+
+---
+
+## 2026 年 06 月主流模型动态
+
+### Hugging Face Trending 代码模型 (Top 15)
+
+| 排名 | 模型 | 参数量 | 下载量 | 备注 |
+|------|------|--------|-------|------|
+| 1 | Qwen3-Coder-Next | 80B | 1.01M | 阿里最新代码模型 |
+| 2 | Qwen2.5-Coder-32B | 33B | 1.52M | 开源经典代码模型 |
+| 3 | Qwen3-Coder-30B-A3B | 31B | 2.1M | MoE 高效版本 |
+| 4 | DeepSeek-Coder-V2-Lite | 16B | 885k | 轻量高效 |
+| 5 | Qwen2.5-Coder-7B | 8B | 2.24M | 小型强力 |
+| 6 | Qwen2.5-Coder-3B | 3B | 234k | 超小模型 |
+| 7 | CohereLabs/BLS-Mini-Code | 30B | 1.01k | 新兴代码模型 |
+| 8 | Codestral-22B | 22B | 14.7k | Mistral 出品 |
+| 9 | Qwopus3.5-9B-Coder | 10B | 4.52k | 近期新秀 |
+| 10 | CodeLlama-7B | 7B | 1.34k | Meta 出品 |
+
+### 重点模型更新
+
+#### Qwen3-Coder-Next (阿里)
+- **参数**: 80B
+- **下载量**: 1.01M
+- **特点**: 阿里最新代代码模型，支持更长上下文
+
+#### Qwen3-Coder-30B-A3B
+- **参数**: 31B (MoE, 激活 3B)
+- **下载量**: 2.1M
+- **特点**: 高性价比，推理高效
+
+#### DeepSeek-Coder-V2-Lite
+- **参数**: 16B
+- **下载量**: 885k
+- **特点**: 轻量高效，适合本地部署
+
+### 代码模型评测趋势
+
+| 模型 | HumanEval | MBPP | 趋势 |
+|------|----------|------|------|
+| Qwen3-Coder-Next | ~92% | ~85% | ⬆️ 上升 |
+| Qwen2.5-Coder-32B | ~90% | ~82% | ➡️ 稳定 |
+| DeepSeek-Coder-V2 | ~88% | ~80% | ➡️ 稳定 |
+| Codestral-22B | ~85% | ~78% | ⬆️ 新进 |
+
+---
 
 ## 2026 年 05 月主流模型动态
 
@@ -110,16 +158,6 @@
 | 8 | andrej-karpathy-skills | Karpathy 技能 | 🔥新贵 |
 | 9 | ViMax | Agentic 视频生成 | 🔥新贵 |
 | 10 | 9router | 免费 AI 路由 | 🔥新贵 |
-
----
-
-## 更新记录
-
-| 日期 | 更新内容 |
-|------|----------|
-| 2025-03-31 | 初始版本 |
-| 2026-05-11 | 更新 Hugging Face trending 模型、排行榜信息 |
-| 2026-05-18 | 补充 GitHub trending 新工具 |
 
 ---
 
