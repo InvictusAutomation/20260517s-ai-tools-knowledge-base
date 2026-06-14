@@ -55,6 +55,38 @@
 | 2026-05-11 | 更新 Hugging Face trending 模型、排行榜信息 |
 | 2026-05-25 | 更新 GitHub Trending AI 项目、主流模型动态 |
 | 2026-06-08 | 更新 Hugging Face trending 代码模型 |
+| 2026-06-15 | 更新 Papers with Code trending 论文、SkillOpt / Agents' Last Exam |
+
+---
+
+## 2026 年 06 月学术前沿 (Papers with Code Trending)
+
+### Agent 技能优化
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **SkillOpt** | - | 文本空间优化器, 将技能训练为外部 Agent 状态, 零部署开销 |
+| **SIA** | Hexo AI | 同步更新模型权重 + 任务特定 Agent 架构 |
+| **Agents' Last Exam (ALE)** | - | 经济价值任务基准, 13 行业集群 1K+ 任务 |
+
+### 多模态与世界模型
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Cosmos 3** | NVIDIA |  omnimodal 世界模型, 统一 MoT 架构 |
+| **InterleaveThinker** | - | 多 Agent 流水线, 图像生成 interleaved 能力 |
+
+### 长上下文优化
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **MiniMax Sparse Attention** | MiniMax | 块稀疏优化, 超长上下文高效处理 |
+
+### 记忆系统
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Mem0** | - | 图基记忆, 长期对话一致性, 优于现有记忆系统 |
 
 ---
 
@@ -226,3 +258,7 @@
 ---
 
 > ⚠️ 注意: 排行榜权重不同，对比时请关注同一评测标准。持续更新中...
+
+---
+
+*最后更新: 2026-06-15*

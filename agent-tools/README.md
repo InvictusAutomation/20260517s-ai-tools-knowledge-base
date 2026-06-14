@@ -92,6 +92,7 @@ Leader (capi) → 任务拆解
 | **harness** | Agent 性能优化系统 | Skills, instincts, memory, security |
 | **headroom** | Token 压缩工具 | 60-95% 更少 token |
 | **oh-my-pi** | 终端 AI 编码 Agent | hash-anchored edits |
+| **SkillSpector** | Agent 技能安全扫描 | NVIDIA 出品, 检测恶意模式 |
 
 ### 记忆与知识
 
@@ -114,6 +115,7 @@ Leader (capi) → 任务拆解
 | **last30days-skill** | 30天内研究技能 | Reddit, X, YouTube, HN |
 | **taste-skill** | AI 品味提升 | 避免生成无聊内容 |
 | **compound-engineering-plugin** | 复合工程插件 | Claude Code / Codex / Cursor |
+| **pm-skills** | PM 技能市场 | 100+ agentic skills |
 
 ### 视频与语音
 
@@ -128,6 +130,15 @@ Leader (capi) → 任务拆解
 |------|------|------|
 | **hermes-agent** | 成长型 Agent | NousResearch |
 | **revfactory/harness** | 元技能设计 | 定义专业 Agent 团队 |
+| **goose** | 可扩展 AI Agent | 支持安装/执行/编辑/测试 |
+
+### 专业工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **apple/container** | Swift 容器 | Apple 芯片优化 |
+| **markitdown** | 文档转换 | Office 转 Markdown |
+| **supervision** | 计算机视觉工具 | Roboflow 出品 |
 
 ---
 
@@ -191,5 +202,5 @@ Leader (capi) → 任务拆解
 
 ## 持续更新
 
-- 最后更新: 2026-06-08
+- 最后更新: 2026-06-15
 - 更新频率: 每周
