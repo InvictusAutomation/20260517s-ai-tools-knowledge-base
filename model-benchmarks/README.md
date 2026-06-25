@@ -56,6 +56,7 @@
 | 2026-05-25 | 更新 GitHub Trending AI 项目、主流模型动态 |
 | 2026-06-08 | 更新 Hugging Face trending 代码模型 |
 | 2026-06-15 | 更新 Papers with Code trending 论文、SkillOpt / Agents' Last Exam |
+| 2026-06-26 | 更新 Hugging Face 代码模型排名、GitHub Trending |
 
 ---
 
@@ -96,16 +97,16 @@
 
 | 排名 | 模型 | 参数量 | 下载量 | 备注 |
 |------|------|--------|-------|------|
-| 1 | Qwen3-Coder-Next | 80B | 1.01M | 阿里最新代码模型 |
-| 2 | Qwen2.5-Coder-32B | 33B | 1.52M | 开源经典代码模型 |
-| 3 | Qwen3-Coder-30B-A3B | 31B | 2.1M | MoE 高效版本 |
-| 4 | DeepSeek-Coder-V2-Lite | 16B | 885k | 轻量高效 |
-| 5 | Qwen2.5-Coder-7B | 8B | 2.24M | 小型强力 |
-| 6 | Qwen2.5-Coder-3B | 3B | 234k | 超小模型 |
-| 7 | CohereLabs/BLS-Mini-Code | 30B | 1.01k | 新兴代码模型 |
-| 8 | Codestral-22B | 22B | 14.7k | Mistral 出品 |
-| 9 | Qwopus3.5-9B-Coder | 10B | 4.52k | 近期新秀 |
-| 10 | CodeLlama-7B | 7B | 1.34k | Meta 出品 |
+| 1 | Qwen2.5-Coder-14B | 15B | 4.67M | 下载量最高 |
+| 2 | Qwen3-Coder-30B-A3B | 31B | 2.05M | MoE 高效版本 |
+| 3 | Qwen2.5-Coder-7B | 8B | 2.03M | 小型强力 |
+| 4 | Qwen3-Coder-Next-FP8 | 80B | 1.73M | 阿里最新代码模型 |
+| 5 | Qwen2.5-Coder-32B | 33B | 1.63M | 开源经典代码模型 |
+| 6 | DeepSeek-Coder-V2-Lite | 16B | 1.17M | 轻量高效 |
+| 7 | Qwen3-Coder-Next | 80B | 1.17M | 完整版本 |
+| 8 | Qwen2.5-Coder-1.5B | 2B | 762k | 超小模型 |
+| 9 | DeepSeek-Coder-7B | 7B | 591k | 经典版本 |
+| 10 | DeepSeek-Coder-6.7B | 7B | 325k | 小型版本 |
 
 ### 重点模型更新
 
@@ -261,4 +262,4 @@
 
 ---
 
-*最后更新: 2026-06-15*
+*最后更新: 2026-06-26*

@@ -100,6 +100,7 @@ Leader (capi) → 任务拆解
 |------|------|------|
 | **supermemory** | 超快记忆引擎 | Memory API for AI |
 | **fff** | 文件搜索工具 | 最快最准的 AI 文件搜索 |
+| **codebase-memory-mcp** | 高性能代码知识图谱 | 毫秒级索引，158 语言 |
 
 ### 浏览器与自动化
 
@@ -123,6 +124,7 @@ Leader (capi) → 任务拆解
 |------|------|------|
 | **Open-LLM-VTuber** | 开源 VTuber | 免手语音交互 + Live2D |
 | **MoneyPrinterTurbo** | 短视频生成 | 一键生成高清视频 |
+| **OpenMontage** | 开源视频制作系统 | 12 pipelines, 52 tools, 500+ skills |
 
 ### Agent 编排
 
@@ -131,6 +133,7 @@ Leader (capi) → 任务拆解
 | **hermes-agent** | 成长型 Agent | NousResearch |
 | **revfactory/harness** | 元技能设计 | 定义专业 Agent 团队 |
 | **goose** | 可扩展 AI Agent | 支持安装/执行/编辑/测试 |
+| **DeepSeek-Reasonix** | DeepSeek 原生终端 Agent | prefix-cache 稳定性 |
 
 ### 专业工具
 
@@ -202,5 +205,5 @@ Leader (capi) → 任务拆解
 
 ## 持续更新
 
-- 最后更新: 2026-06-15
+- 最后更新: 2026-06-26
 - 更新频率: 每周
