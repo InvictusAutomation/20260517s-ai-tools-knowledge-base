@@ -83,7 +83,31 @@ Leader (capi) → 任务拆解
 
 ---
 
-## 2026 年 06 月新出现工具 (GitHub Trending)
+## 2026 年 06 月新出现工具 (GitHub Trending) - 2026-06-29 更新
+
+### 视频与媒体制作
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OpenMontage** | 世界首个开源 Agentic 视频制作系统 | 12 pipelines, 52 tools, 500+ skills |
+| **voicebox** | 开源 AI 语音工作室 | 克隆、语音合成、创建 |
+
+### 记忆与知识图谱
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **codebase-memory-mcp** | 高性能代码知识图谱 MCP | 毫秒级索引，158 语言，单一二进制 |
+| **cognee** | 开源 AI 记忆平台 | 图基记忆，长期对话一致性 |
+| **Agent-Reach** | 互联网视觉 Agent | 读取 Twitter, Reddit, YouTube, Bilibili 等 |
+
+### 框架与规范
+
+| 工具 | 描述 | 来源 |
+|------|------|------|
+| **DESIGN.md** | 设计规范格式规范 | Google Labs |
+| **page-agent** | 页面 GUI Agent | 阿里巴巴 |
+| **deer-flow** | 开源长周期 SuperAgent | 字节跳动 |
+| **agent-toolkit-for-aws** | AWS MCP 服务器 | AWS 官方 |
 
 ### Agent 性能优化
 
@@ -205,5 +229,5 @@ Leader (capi) → 任务拆解
 
 ## 持续更新
 
-- 最后更新: 2026-06-26
+- 最后更新: 2026-06-29
 - 更新频率: 每周
