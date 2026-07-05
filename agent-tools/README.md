@@ -227,7 +227,50 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 07 月新出现工具 (GitHub Trending) - 2026-07-06 更新
+
+### 代码智能与知识图谱
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **codebase-memory-mcp** | 高性能代码知识图谱 MCP | 毫秒级索引，158 语言，子毫秒查询，99% 更少 token |
+| **agentsview** | 编码 Agent 会话分析 | 本地优先，20+ Agent 支持，token 统计 |
+| **system_prompts_leaks** | 系统提示泄露集合 | Anthropic/OpenAI/Google/xAI 提示定期更新 |
+
+### 视频与媒体制作
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OpenMontage** | 世界首个开源 Agentic 视频制作系统 | 12 pipelines, 52 tools, 500+ agent skills |
+| **Agent-Reach** | 互联网视觉 Agent | 读取 Twitter, Reddit, YouTube, GitHub, Bilibili, 小红书 |
+
+### Agent 编排与复用
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **herdr** | 终端 Agent 复用器 | 多 Agent 复用，终端交互 |
+| **orca** | 多 Agent 桌面 ADE | 并行 Agent 运行，支持订阅 |
+| **strix** | 开源渗透测试工具 | AI 驱动的安全测试 |
+
+### 专业领域工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **hiring-agent** | AI 简历评估 Agent | 自动评估打分简历 |
+| **pm-skills** | PM 技能市场 | 100+ agentic skills |
+| **last30days-skill** | 研究技能 | Reddit, X, YouTube, HN, Polymarket 聚合 |
+
+### 其他值得关注
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **apple/container** | Swift 容器 | Apple 芯片优化 |
+| **supervision** | 计算机视觉工具 | Roboflow 出品 |
+| **dbx** | 轻量级数据库客户端 | 15MB, 跨平台, 8+ 数据库 |
+
+---
+
 ## 持续更新
 
-- 最后更新: 2026-06-29
+- 最后更新: 2026-07-06
 - 更新频率: 每周
