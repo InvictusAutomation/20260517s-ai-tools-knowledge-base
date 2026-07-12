@@ -227,15 +227,16 @@ Leader (capi) → 任务拆解
 
 ---
 
-## 2026 年 07 月新出现工具 (GitHub Trending) - 2026-07-06 更新
+## 2026 年 07 月新出现工具 (GitHub Trending) - 2026-07-13 更新
 
 ### 代码智能与知识图谱
 
 | 工具 | 描述 | 特点 |
 |------|------|------|
 | **codebase-memory-mcp** | 高性能代码知识图谱 MCP | 毫秒级索引，158 语言，子毫秒查询，99% 更少 token |
-| **agentsview** | 编码 Agent 会话分析 | 本地优先，20+ Agent 支持，token 统计 |
+| **cognee** | 开源 AI 记忆平台 | 图基记忆，长期对话一致性 |
 | **system_prompts_leaks** | 系统提示泄露集合 | Anthropic/OpenAI/Google/xAI 提示定期更新 |
+| **zvec** | 轻量级进程内向量数据库 | 阿里开源，闪电般快速 |
 
 ### 视频与媒体制作
 
@@ -252,25 +253,32 @@ Leader (capi) → 任务拆解
 | **orca** | 多 Agent 桌面 ADE | 并行 Agent 运行，支持订阅 |
 | **strix** | 开源渗透测试工具 | AI 驱动的安全测试 |
 
+### 安全与测试
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **SkillSpector** | Agent 技能安全扫描器 | NVIDIA 出品，检测恶意模式 |
+| **strix** | 渗透测试工具 | AI 驱动的漏洞发现与修复 |
+
 ### 专业领域工具
 
 | 工具 | 描述 | 特点 |
 |------|------|------|
 | **hiring-agent** | AI 简历评估 Agent | 自动评估打分简历 |
-| **pm-skills** | PM 技能市场 | 100+ agentic skills |
-| **last30days-skill** | 研究技能 | Reddit, X, YouTube, HN, Polymarket 聚合 |
+| **OmniRoute** | 免费 AI 网关 | 231+ 提供商，50+ 免费，Claude/Codex/Cursor/Copilot 集成 |
+| **Meetily** | 隐私优先 AI 会议助手 | 4x 转录速度，100% 本地处理 |
 
-### 其他值得关注
+### 值得关注
 
 | 工具 | 描述 | 特点 |
 |------|------|------|
-| **apple/container** | Swift 容器 | Apple 芯片优化 |
-| **supervision** | 计算机视觉工具 | Roboflow 出品 |
+| **iroh** | QUIC + NAT 穿透库 | n0-computer 出品，IP 地址替代方案 |
+| **supermemory** | 超快记忆引擎 | Memory API for AI |
 | **dbx** | 轻量级数据库客户端 | 15MB, 跨平台, 8+ 数据库 |
 
 ---
 
 ## 持续更新
 
-- 最后更新: 2026-07-06
+- 最后更新: 2026-07-13
 - 更新频率: 每周

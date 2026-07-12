@@ -58,6 +58,56 @@
 | 2026-06-15 | 更新 Papers with Code trending 论文、SkillOpt / Agents' Last Exam |
 | 2026-06-26 | 更新 Hugging Face 代码模型排名、GitHub Trending |
 | 2026-07-06 | 更新 Hugging Face trending 模型、DeepSeek-V4-Pro/GLM-5.2 新上线 |
+| 2026-07-13 | 更新 Hugging Face trending 模型、ArXiv 新评测基准论文 |
+
+---
+
+## 2026 年 07 月学术前沿 (ArXiv 新论文) - 2026-07-12 更新
+
+### Agent 与多 Agent 系统
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **UniClawBench** | - | 通用主动 Agent 基准，真实世界任务评测 |
+| **Game Theory Driven Multi-Agent** | - | 博弈论框架减少 LLM 幻觉 |
+| **Who Broke the System?** | - | LLM 多 Agent 系统失败定位 |
+| **MASTE** | - | 多 Agent 流水线零样本方面情感三元组提取 |
+
+### 评测基准
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **AUTOPILOT VQA** | - | 事故中心视觉语言模型评测 |
+| **OmniFood-Bench** | - | VLMs 营养推理与个性化健康建议 |
+| **CausalDS** | - | 数据科学 Agent 因果推理基准 |
+| **PredicateLongBench** | - | 长上下文任务难度轴分析 |
+| **MentalHospital** | - | 精神科临床对话虚拟环境 |
+
+### 优化与效率
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Resample or Reroute?** | - | 预算感知测试时间模型选择 |
+| **What to Keep, What to Forget** | - | LLM 记忆压缩的率-失真视角 |
+| **Tail-Aware Credit Calibration** | - | RL 强化学习尾部感知信用校准 |
+| **Efficient Safety Alignment** | - | 潜在人格特质高效安全对齐 |
+
+### 安全与可解释性
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Mechanistic Interpretability of Jailbreaks** | - | LLM 越狱的内部归因图可解释性 |
+| **Functional and Secure Code Generation** | - | 任务向量功能安全代码生成 |
+| **Efficient Safety Alignment** | - | 潜在人格特质安全对齐 |
+
+### 多模态与视觉语言
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **WCog-VLA** | - | 端到端自动驾驶世界认知 VLA 模型 |
+| **Attribute Retrieving** | - | 开放词汇内镜组合引用分割 |
+| **COALA** | - | ASR 语音增强语言建模 |
+| **LUMI** | - | 基于 LLM 的无损图像压缩 |
 
 ---
 
@@ -99,27 +149,59 @@
 
 ---
 
-## 2026 年 07 月主流模型动态 - 2026-07-06 更新
+## 2026 年 07 月主流模型动态 - 2026-07-13 更新
 
 ### Hugging Face Trending 文本生成模型 (Top 15)
 
 | 排名 | 模型 | 参数量 | 下载量 | 备注 |
 |------|------|--------|-------|------|
-| 1 | DeepSeek-R1 | 685B | 8.34M | 下载量最高，推理模型 |
-| 2 | Meta-Llama-3-8B | 8B | 1.29M | Meta 经典 |
-| 3 | Llama-3.1-8B-Instruct | 8B | 9.02M | 指令模型 |
-| 4 | **DeepSeek-V4-Pro** | 862B | 1.23M | 🆕 新上线，多模态旗舰 |
-| 5 | BLOOM | 176B | 4.9k | 大型开源 |
-| 6 | **gpt-oss-120b** | 120B | 4.18M | 🆕 OpenAI 开源 |
-| 7 | Llama-2-7b-chat-hf | 7B | 266k | 聊天模型 |
-| 8 | **gpt-oss-20b** | 22B | 6.92M | 🆕 OpenAI 小型开源 |
-| 9 | Meta-Llama-3-8B-Instruct | 8B | 1.31M | 指令模型 |
-| 10 | Mistral-7B-v0.1 | 7B | 882k | Mistral 基础 |
-| 11 | DeepSeek-V3 | 685B | 1.06M | DeepSeek V3 |
-| 12 | **phi-2** | 3B | 785k | 🆕 微软小模型更新 |
-| 13 | **GLM-5.2** | 753B | 220k | 🆕 智谱最新，3天前 |
-| 14 | gemma-7b | 9B | 29.5k | Google 小型 |
-| 15 | gpt2 | 0.1B | 13.2M | 最受欢迎基础模型 |
+| 1 | DeepSeek-R1 | 685B | 8.66M | 下载量最高，推理模型 |
+| 2 | **Hy3** | 299B | 8.66k | 🆕 腾讯大模型 |
+| 3 | Qwythos-9B-Claude-Mythos-5-1M | 9B | 2.03M | 🆕 Claude 风格模型 |
+| 4 | **GLM-5.2** | 753B | 441k | 🆕 智谱最新更新 |
+| 5 | ThinkingCap-Qwen3.6-27B | 27B | 250k | 🆕 推理优化 |
+| 6 | **Agents-A1** | 35B | 502k | 🆕 Agent 专用模型 |
+| 7 | Unlimited-OCR | 3B | 1.94M | 🆕 百度 OCR |
+| 8 | LongCat-2.0 | 1.8T | 181k | 🆕 美团超长上下文 |
+| 9 | Meta-Llama-3-8B | 8B | 1.29M | Meta 经典 |
+| 10 | Llama-3.1-8B-Instruct | 8B | 9.02M | 指令模型 |
+| 11 | BLOOM | 176B | 4.9k | 大型开源 |
+| 12 | **gpt-oss-120b** | 120B | 4.18M | OpenAI 开源 |
+| 13 | Llama-2-7b-chat-hf | 7B | 266k | 聊天模型 |
+| 14 | **gpt-oss-20b** | 22B | 6.92M | OpenAI 小型开源 |
+| 15 | MiniCPM5-1B | 1B | 915k | 面壁小钢炮 |
+
+### 新上线重点模型
+
+#### Hy3 (腾讯)
+- **参数量**: 299B
+- **下载量**: 8.66k
+- **特点**: 腾讯最新大模型
+
+#### GLM-5.2 (智谱 AI)
+- **参数量**: 753B
+- **下载量**: 441k
+- **特点**: 智谱最新更新，10天前上线
+
+#### LongCat-2.0 (美团)
+- **参数量**: 1.8T (推测)
+- **下载量**: 181k
+- **特点**: 美团超长上下文模型
+
+#### Agents-A1 (InternScience)
+- **参数量**: 35B
+- **下载量**: 502k
+- **特点**: Agent 专用模型
+
+#### Unlimited-OCR (百度)
+- **参数量**: 3B
+- **下载量**: 1.94M
+- **特点**: 百度最新 OCR 模型
+
+#### ThinkingCap-Qwen3.6-27B
+- **参数量**: 27B
+- **下载量**: 250k
+- **特点**: 推理优化版本
 
 ### 新上线重点模型
 
@@ -326,4 +408,4 @@
 
 ---
 
-*最后更新: 2026-06-29*
+*最后更新: 2026-07-13*
