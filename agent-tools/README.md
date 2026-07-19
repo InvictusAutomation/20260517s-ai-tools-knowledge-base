@@ -278,7 +278,66 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 07 月新出现工具 (GitHub Trending) - 2026-07-19 更新
+
+### 视频与媒体制作
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OpenMontage** | 世界首个开源 Agentic 视频制作系统 | 12 pipelines, 52 tools, 500+ agent skills |
+| **ai-job-search** | AI 求职框架 | Claude Code 驱动，评估职位、定制简历、求职信 |
+
+### 代码智能与知识图谱
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **codebase-memory-mcp** | 高性能代码知识图谱 MCP | 毫秒级索引，158 语言，子毫秒查询，99% 更少 token |
+| **codebase-memory-mcp** | 高性能代码索引 | 平均毫秒级索引，单一静态二进制，零依赖 |
+
+### Agent 编排与工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **herdr** | 终端 Agent 复用器 | 多 Agent 复用，终端交互 |
+| **orca** | 多 Agent 桌面 ADE | 并行 Agent 运行，支持订阅 |
+| **strix** | 开源渗透测试工具 | AI 驱动的漏洞发现与修复 |
+| **page-agent** | 页面 GUI Agent | 阿里巴巴出品，纯前端 JavaScript GUI Agent |
+
+### 安全与测试
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **SkillSpector** | Agent 技能安全扫描器 | NVIDIA 出品，检测恶意模式 |
+| **strix** | 渗透测试工具 | AI 驱动的漏洞发现与修复 |
+
+### 专业领域工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **hiring-agent** | AI 简历评估 Agent | 自动评估打分简历 |
+| **OmniRoute** | 免费 AI 网关 | 231+ 提供商，50+ 免费，Claude/Codex/Cursor/Copilot 集成 |
+| **Meetily** | 隐私优先 AI 会议助手 | 4x 转录速度，100% 本地处理 |
+| **Agent-Reach** | 互联网视觉 Agent | 读取 Twitter, Reddit, YouTube, GitHub, Bilibili, 小红书 |
+
+### 效率与优化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OfficeCLI** | Office 套件 CLI 工具 | AI Agent 读写编辑 Word/Excel/PPT，单二进制无需安装 |
+| **DesktopCommanderMCP** | Claude 终端控制 MCP | 终端控制、文件系统搜索、diff 编辑 |
+| **OpenCut** | 开源 CapCut 替代品 | 视频剪辑 |
+
+### 值得关注
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **hallmark** | 反 AI-slop 设计技能 | Claude Code/Cursor/Codex 避免生成无聊内容 |
+| **iroh** | QUIC + NAT 穿透库 | n0-computer 出品，IP 地址替代方案 |
+| **supermemory** | 超快记忆引擎 | Memory API for AI |
+
+---
+
 ## 持续更新
 
-- 最后更新: 2026-07-13
+- 最后更新: 2026-07-19
 - 更新频率: 每周

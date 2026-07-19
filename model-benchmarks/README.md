@@ -59,10 +59,39 @@
 | 2026-06-26 | 更新 Hugging Face 代码模型排名、GitHub Trending |
 | 2026-07-06 | 更新 Hugging Face trending 模型、DeepSeek-V4-Pro/GLM-5.2 新上线 |
 | 2026-07-13 | 更新 Hugging Face trending 模型、ArXiv 新评测基准论文 |
+| 2026-07-19 | 更新 Hugging Face trending 模型、Bonsai/Ornith/Agents-A1 新上线、SEED 论文 |
 
 ---
 
-## 2026 年 07 月学术前沿 (ArXiv 新论文) - 2026-07-12 更新
+## 2026 年 07 月学术前沿 (ArXiv 新论文) - 2026-07-19 更新
+
+### Agent 强化学习与技能优化
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **SEED: Self-Evolving On-Policy Distillation** | - | 将轨迹转化为 hindsight skills 并蒸馏回策略模型，解决 token 级监督缺失问题 |
+| **SkillOpt: Executive Strategy for Self-Evolving Agent Skills** | - | 文本空间优化器，将技能训练为外部 Agent 状态，零部署推理开销 |
+
+### 世界模型与物理 AI
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Kairos: A Native World Model Stack for Physical AI** | - | 混合时间注意力机制，跨硬件平台高效运行 |
+| **Infinite Worlds with Versatile Interactions** | - | 高级世界建模系统，多 Agent 行为控制 |
+
+### 语音与音频
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Continuous Audio Language Models (CALM)** | - | 避免有损压缩，低计算成本实现更高质量和保真度 |
+| **GigaChat3.1-Audio-10B-A1.8B** | - | 俄语语音模型，10B 参数 1.8B 激活 |
+
+### OCR 与文档理解
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Unlimited OCR Works** | 百度 | Reference Sliding Window Attention 消除长序列 OCR 内存增长 |
+| **VideoChat3: Fully Open Video MLLM** | - | 全开源高效视频理解，I3D-ViT + 自适应帧分辨率 |
 
 ### Agent 与多 Agent 系统
 
@@ -149,44 +178,64 @@
 
 ---
 
-## 2026 年 07 月主流模型动态 - 2026-07-13 更新
+## 2026 年 07 月主流模型动态 - 2026-07-19 更新
 
 ### Hugging Face Trending 文本生成模型 (Top 15)
 
 | 排名 | 模型 | 参数量 | 下载量 | 备注 |
 |------|------|--------|-------|------|
-| 1 | DeepSeek-R1 | 685B | 8.66M | 下载量最高，推理模型 |
-| 2 | **Hy3** | 299B | 8.66k | 🆕 腾讯大模型 |
-| 3 | Qwythos-9B-Claude-Mythos-5-1M | 9B | 2.03M | 🆕 Claude 风格模型 |
-| 4 | **GLM-5.2** | 753B | 441k | 🆕 智谱最新更新 |
-| 5 | ThinkingCap-Qwen3.6-27B | 27B | 250k | 🆕 推理优化 |
-| 6 | **Agents-A1** | 35B | 502k | 🆕 Agent 专用模型 |
-| 7 | Unlimited-OCR | 3B | 1.94M | 🆕 百度 OCR |
-| 8 | LongCat-2.0 | 1.8T | 181k | 🆕 美团超长上下文 |
-| 9 | Meta-Llama-3-8B | 8B | 1.29M | Meta 经典 |
-| 10 | Llama-3.1-8B-Instruct | 8B | 9.02M | 指令模型 |
-| 11 | BLOOM | 176B | 4.9k | 大型开源 |
-| 12 | **gpt-oss-120b** | 120B | 4.18M | OpenAI 开源 |
-| 13 | Llama-2-7b-chat-hf | 7B | 266k | 聊天模型 |
-| 14 | **gpt-oss-20b** | 22B | 6.92M | OpenAI 小型开源 |
-| 15 | MiniCPM5-1B | 1B | 915k | 面壁小钢炮 |
+| 1 | **Ternary-Bonsai-27B-gguf** | 4B | 339k | 🆕 高效量化模型 |
+| 2 | **Bonsai-27B-gguf** | 4B | 1.26M | 🆕 高效量化模型 |
+| 3 | **GLM-5.2** | 753B | 536k | 智谱最新 |
+| 4 | **Hy3** | 295B | 110k | 🆕 腾讯大模型 |
+| 5 | **MiniCPM5-1B-Claude-Opus-Fable5-Thinking** | 1B | 5.49k | 🆕 Claude 风格 |
+| 6 | **Bonsai-27B-mlx-1bit** | 2B | 21.7k | 🆕 MLX 1bit 量化 |
+| 7 | **Hy3-GGUF** | 295B | 110k | 🆕 高效版本 |
+| 8 | **Agents-A1** | 35B | 35.8k | 🆕 Agent 专用 |
+| 9 | **Ornith-1.0-35B-GGUF** | 35B | 1.87M | 🆕 新兴模型 |
+| 10 | **Qwythos-9B-v2** | 10B | 9.53k | 🆕 改进版本 |
+| 11 | DeepSeek-V4-Pro | 862B | 1.49M | 多模态旗舰 |
+| 12 | DeepSeek-V4-Flash | 158B | 2.96M | 高效版本 |
+| 13 | Ornith-1.0-9B | 9B | 2.35M | 轻量版本 |
+| 14 | MiniCPM5-1B | 1B | 408k | 面壁小钢炮 |
+| 15 | **Soofi-S-Base** | 32B | 95 | 🆕 新兴模型 |
 
 ### 新上线重点模型
 
+#### Ternary-Bonsai / Bonsai (Prism-ML)
+- **参数量**: 4B (27B 量化到 4B)
+- **下载量**: 339k / 1.26M
+- **特点**: 高效量化模型，GGUF 格式支持本地部署
+
 #### Hy3 (腾讯)
-- **参数量**: 299B
-- **下载量**: 8.66k
-- **特点**: 腾讯最新大模型
+- **参数量**: 295B
+- **下载量**: 110k
+- **特点**: 腾讯最新大模型，多模态能力
+
+#### Ornith-1.0 (DeepReinforce AI)
+- **参数量**: 35B / 9B
+- **下载量**: 1.87M / 2.35M
+- **特点**: 新兴模型系列，35B 和 9B 双版本
+
+#### Agents-A1 (InternScience)
+- **参数量**: 35B
+- **下载量**: 35.8k
+- **特点**: Agent 专用模型，任务规划与执行
 
 #### GLM-5.2 (智谱 AI)
 - **参数量**: 753B
-- **下载量**: 441k
-- **特点**: 智谱最新更新，10天前上线
+- **下载量**: 536k
+- **特点**: 智谱最新更新
 
-#### LongCat-2.0 (美团)
-- **参数量**: 1.8T (推测)
-- **下载量**: 181k
-- **特点**: 美团超长上下文模型
+### 小模型专精榜 (更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Ternary-Bonsai-27B | 4B | 高效量化 | ⭐⭐⭐⭐ | GGUF 格式 |
+| Bonsai-27B | 4B | 高效量化 | ⭐⭐⭐⭐ | 多种格式 |
+| Ornith-1.0-9B | 9B | 通用 | ⭐⭐⭐⭐ | 高下载量 |
+| Agents-A1 | 35B | Agent | ⭐⭐⭐⭐ | 专用模型 |
+| MiniCPM5-1B | 1B | 轻量 | ⭐⭐⭐⭐ | 面壁小钢炮 |
 
 #### Agents-A1 (InternScience)
 - **参数量**: 35B
@@ -408,4 +457,4 @@
 
 ---
 
-*最后更新: 2026-07-13*
+*最后更新: 2026-07-19*
