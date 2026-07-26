@@ -60,10 +60,61 @@
 | 2026-07-06 | 更新 Hugging Face trending 模型、DeepSeek-V4-Pro/GLM-5.2 新上线 |
 | 2026-07-13 | 更新 Hugging Face trending 模型、ArXiv 新评测基准论文 |
 | 2026-07-19 | 更新 Hugging Face trending 模型、Bonsai/Ornith/Agents-A1 新上线、SEED 论文 |
+| 2026-07-27 | 更新 Hugging Face trending 模型、Qwen3 系列、Abot-World-0/Mage-Flow 论文 |
+
+---
+
+## 2026 年 07 月学术前沿 (ArXiv 新论文) - 2026-07-27 更新
+
+### 世界模型与交互
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU** | - | 单 RTX 5090 GPU 实现 720P 16FPS 视频生成，1.2s 延迟，19GiB 显存 |
+| **Mage-Flow: Native-Resolution Foundation Model** | - | 4B 规模图像生成与编辑，A100 上 0.59s 生成 1024x1024 图像 |
+
+### OCR 与文档理解
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Unlimited OCR Works** | 百度 | Reference Sliding Window Attention 消除长序列 OCR 内存增长 |
+
+### 3D 重建
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Geometric Context Transformer for Streaming 3D Reconstruction** | - | LingBot-Map 前馈 3D 基础模型，20FPS 实时重建 |
+
+### 金融领域
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Kronos: Foundation Model for Financial Markets** | - | 金融 K 线数据专用预训练框架 |
+
+### Agent 强化学习与技能优化
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **SEED: Self-Evolving On-Policy Distillation** | - | 将轨迹转化为 hindsight skills 并蒸馏回策略模型 |
+| **SkillOpt: Executive Strategy for Self-Evolving Agent Skills** | - | 文本空间优化器，零部署推理开销 |
 
 ---
 
 ## 2026 年 07 月学术前沿 (ArXiv 新论文) - 2026-07-19 更新
+
+### Agent 强化学习与技能优化
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **SEED: Self-Evolving On-Policy Distillation** | - | 将轨迹转化为 hindsight skills 并蒸馏回策略模型，解决 token 级监督缺失问题 |
+| **SkillOpt: Executive Strategy for Self-Evolving Agent Skills** | - | 文本空间优化器，将技能训练为外部 Agent 状态，零部署推理开销 |
+
+### 世界模型与物理 AI
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Kairos: A Native World Model Stack for Physical AI** | - | 混合时间注意力机制，跨硬件平台高效运行 |
+| **Infinite Worlds with Versatile Interactions** | - | 高级世界建模系统，多 Agent 行为控制 |
 
 ### Agent 强化学习与技能优化
 
@@ -175,6 +226,48 @@
 | 论文 | 机构 | 核心贡献 |
 |------|------|----------|
 | **Mem0** | - | 图基记忆, 长期对话一致性, 优于现有记忆系统 |
+
+---
+
+## 2026 年 07 月主流模型动态 - 2026-07-27 更新
+
+### Hugging Face Trending 文本生成模型 (Top 20)
+
+| 排名 | 模型 | 参数量 | 下载量 | 备注 |
+|------|------|--------|-------|------|
+| 1 | **Qwen/Qwen3-0.6B** | 0.8B | 28.5M | 🆕 Qwen3 最小的模型 |
+| 2 | **Qwen/Qwen3-8B** | 8B | 16.8M | 🆕 Qwen3 基础版 |
+| 3 | **facebook/opt-125m** | 0.1B | 16.7M | 经典小模型 |
+| 4 | **Qwen/Qwen2.5-1.5B-Instruct** | 2B | 13.3M | 指令模型 |
+| 5 | **Qwen/Qwen2.5-7B-Instruct** | 8B | 12M | 主力模型 |
+| 6 | **meta-llama/Llama-3.2-1B-Instruct** | 1B | 10.3M | Llama 小模型 |
+| 7 | **Qwen/Qwen3-32B** | 33B | 10.1M | 🆕 Qwen3 大杯 |
+| 8 | **nvidia/Qwen3.6-35B-A3B-NVFP4** | 19B | 9.59M | NVIDIA 优化版 |
+| 9 | **deepseek-ai/DeepSeek-R1** | 685B | 8.93M | 推理旗舰 |
+| 10 | **meta-llama/Llama-3.1-8B-Instruct** | 8B | 8.04M | Llama 3.1 |
+| 11 | **openai/gpt-oss-20b** | 22B | 7.93M | OpenAI 开源 |
+| 12 | **Qwen/Qwen3-1.7B** | 2B | 6.97M | 🆕 Qwen3 中杯 |
+| 13 | **Qwen/Qwen2.5-3B-Instruct** | 3B | 5.72M | 中型指令模型 |
+| 14 | **Qwen/Qwen3-4B** | 4B | 4.83M | 🆕 Qwen3 小杯 |
+| 15 | **deepseek-ai/DeepSeek-V4-Flash** | 158B | 3.12M | 高效版本 |
+| 16 | **deepreinforce-ai/Ornith-1.0-9B-GGUF** | 9B | 3.75M | 高效量化 |
+| 17 | **ibm-granite/granite-4.1-8b** | 9B | 3.38M | IBM Granite |
+| 18 | **Qwen/Qwen3-14B** | 15B | 3.24M | 🆕 Qwen3 中大杯 |
+| 19 | **zai-org/GLM-5.2-FP8** | 753B | 3.14M | 智谱高效版 |
+| 20 | **openai/gpt-oss-120b** | 120B | 4.38M | OpenAI 大杯 |
+
+### Qwen3 系列更新 (阿里)
+
+Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
+
+| 模型 | 参数 | 下载量 | 特点 |
+|------|------|--------|------|
+| Qwen3-0.6B | 0.8B | 28.5M | 最小模型，边缘设备 |
+| Qwen3-8B | 8B | 16.8M | 主力模型 |
+| Qwen3-32B | 33B | 10.1M | 大杯模型 |
+| Qwen3-1.7B | 2B | 6.97M | 中杯模型 |
+| Qwen3-4B | 4B | 4.83M | 小杯模型 |
+| Qwen3-14B | 15B | 3.24M | 中大杯模型 |
 
 ---
 
