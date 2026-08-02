@@ -538,6 +538,77 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
+## 2026 年 08 月主流模型动态 - 2026-08-03 更新
+
+### Hugging Face Trending 文本生成模型 (Top 20)
+
+| 排名 | 模型 | 参数量 | 下载量 | 备注 |
+|------|------|--------|-------|------|
+| 1 | **moonshotai/Kimi-K3** | 2.8T | 837k | 🆕 全新多模态模型 |
+| 2 | **DeepSeek-V4-Flash-0731** | 304B | 156k | 🆕 每日更新 |
+| 3 | **Qwen3.6-27B-Fable-Fusion** | 27B | 1.37M | 定制融合版 |
+| 4 | **baidu/Unlimited-OCR** | 3B | 2.54M | 百度 OCR 模型 |
+| 5 | **Kimi-K3-GGUF** | 2.8T | 88.5k | 🆕 高效量化版 |
+| 6 | **zai-org/GLM-5.2** | 753B | 2.05M | 智谱最新 |
+| 7 | **thinkingmachines/Inkling-Small** | 266B | 6.84k | 🆕 新兴模型 |
+| 8 | **Inflect-Micro-v2** | - | 1.83k | TTS 模型 |
+| 9 | **KAT-Coder-V2.5-Dev** | 35B | 13.2k | 代码模型 |
+| 10 | **Nanbeige4.2-3B** | 4B | 33k | 🆕 中文字词模型 |
+| 11 | **microsoft/Mage-VL** | 5B | 272k | 微软多模态 |
+| 12 | **poolside/Laguna-S-2.1** | 118B | 80.1k | 🆕 新兴模型 |
+| 13 | **Audio8-TTS-Preview** | 0.6B | 4.31k | TTS 预览版 |
+| 14 | **microsoft/Fara1.5-27B** | 27B | 2.94k | 🆕 微软模型 |
+| 15 | **XYZ-Aquila-mini** | 35B | 903 | 🆕 新兴模型 |
+| 16 | **Qwen3.6-35B-A3B** | 35B | 259k | 阿里 MoE |
+| 17 | **Solar-Open2-250B** | 250B | 14.9k | 🆕 Upstage 模型 |
+| 18 | **DeepSeek-V4-Flash** | 158B | 2.79M | 高效版本 |
+| 19 | **XYZ-Aquila-pro** | 397B | 1.09k | 🆕 大杯版本 |
+| 20 | **thinkingmachines/Inkling** | 952B | 63.3k | 大杯版本 |
+
+### 新上线重点模型
+
+#### Kimi-K3 (Moonshot AI)
+- **参数量**: 2.8T (可能是激活参数)
+- **下载量**: 837k
+- **特点**: 全新多模态模型，Image-Text-to-Text 任务
+- **更新时间**: 6 天前
+
+#### DeepSeek-V4-Flash-0731 (深度求索)
+- **参数量**: 304B
+- **下载量**: 156k
+- **特点**: 每日更新的 Flash 版本
+- **更新时间**: 1 天前
+
+#### Unlimited-OCR (百度)
+- **参数量**: 3B
+- **下载量**: 2.54M
+- **特点**: 百度最强 OCR 模型，支持多种格式
+- **更新时间**: 4 天前
+
+#### Inkling (Thinking Machines)
+- **参数量**: 952B
+- **下载量**: 63.3k
+- **特点**: 新兴大模型系列
+- **更新时间**: 10 天前
+
+#### Solar-Open2-250B (Upstage)
+- **参数量**: 250B
+- **下载量**: 14.9k
+- **特点**: Upstage 最新大模型
+- **更新时间**: 2 天前
+
+### 小模型专精榜 (更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Kimi-K3 | 2.8T | 多模态 | ⭐⭐⭐⭐⭐ | Moonshot 最新 |
+| Unlimited-OCR | 3B | OCR | ⭐⭐⭐⭐⭐ | 百度最强 |
+| Qwen3.6-35B-A3B | 35B | 通用 | ⭐⭐⭐⭐ | 阿里 MoE |
+| DeepSeek-V4-Flash | 158B | 高效 | ⭐⭐⭐⭐ | 性价比高 |
+| Inkling-Small | 266B | 通用 | ⭐⭐⭐⭐ | 新兴模型 |
+
+---
+
 ## 数据来源
 
 - [GitHub Trending](https://github.com/trending)
@@ -550,4 +621,4 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-07-19*
+*最后更新: 2026-08-03*

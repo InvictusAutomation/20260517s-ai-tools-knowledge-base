@@ -410,7 +410,49 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-03 更新
+
+### 代码质量与审查
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **open-code-review** | 阿里开源代码审查工具 | 确定性 pipeline + LLM Agent，精确行级注释，多语言规则集 (NPE/线程安全/XSS/SQL 注入)，兼容 OpenAI/Anthropic |
+
+### 浏览器自动化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **ego-lite** | 最快浏览器自动化工具 | 专为 AI Agent 设计，共享登录状态给 Codex/Claude Code，零成本零配置 |
+
+### AI 网关与路由
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OmniRoute** | 免费 MIT AI 网关 | 290+ 提供商 (90+ 免费)，500+ 模型，Kimi/Claude/GPT/Gemini/GLM/DeepSeek/MiniMax，支持 Claude Code/Codex/Cursor/Cline/Copilot，RTK+Caveman 压缩节省 15-95% tokens |
+| **aisuite** | 多提供商统一接口 | 简单统一接口访问多个生成式 AI 提供商 |
+
+### 技能与学习
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **book-to-skill** | PDF 转 Claude Code skill | 把技术书籍 PDF 转为可study/reference/使用的 skill |
+| **i-have-adhd** | ADHD-friendly 输出 | 阻止 coding agent  bury the answer，专注关键信息 |
+
+### 设计与 3D
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **text-to-cad** | CAD/CAE/CAM agent skills 库 | AI 生成 CAD 设计 |
+
+### 开源替代
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **openwork** | Claude Cowork 开源替代 | different-ai 出品，powered by opencode |
+
+---
+
 ## 持续更新
 
-- 最后更新: 2026-07-19
+- 最后更新: 2026-08-03
 - 更新频率: 每周
