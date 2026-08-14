@@ -538,6 +538,89 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
+## 2026 年 08 月主流模型动态 - 2026-08-15 更新
+
+### Hugging Face Trending 文本生成模型 (Top 20)
+
+| 排名 | 模型 | 参数量 | 下载量 | 备注 |
+|------|------|--------|-------|------|
+| 1 | **Qwen/Qwen3.8-2.4T-A95B** | 2.4T | 3.83k | 🆕 阿里最新旗舰，2天前更新 |
+| 2 | **DeepSeek-V4-Flash-0731** | 304B | 1.61M | 每日更新 |
+| 3 | **DeepSeek-V4-Pro-0813** | 1.7T | 245 | 🆕 Pro 版本每日更新，1天前 |
+| 4 | **NVIDIA-Nemotron-3.5-Lightning-30B-A3B** | 18B | 120k | 🆕 NVIDIA 新模型 |
+| 5 | **LiquidAI/LFM2.5-2.6B** | 3B | 124k | 轻量高效 |
+| 6 | **Qwen3.8-2.4T-A95B-FP8** | 2.4T | 9.33k | 🆕 FP8 高效版本 |
+| 7 | **NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16** | 32B | 34.1k | BF16 精度版 |
+| 8 | **deepgrove/maple-preview** | 20B | 5.62k | 🆕 新兴模型 |
+| 9 | **inclusionAI/Ling-3.0-flash** | 127B | 11.3k | 🆕 新系列 |
+| 10 | **Motif-3** | 315B | 1.29k | 🆕 新兴大模型，14小时前更新 |
+| 11 | **unsloth/Qwen3.8-2.4T-A95B-GGUF** | 2.4T | 8.57k | GGUF 量化版 |
+| 12 | **LiquidAI/LFM2.5-2.6B-GGUF** | 3B | 246k | 高效量化版 |
+| 13 | **NVIDIA-Nemotron-3.5-Lightning-30B-GGUF** | 33B | 56.5k | GGUF 量化版 |
+| 14 | **zai-org/GLM-5.2** | 753B | 2.69M | 智谱最新 |
+| 15 | **huihui-ai/Huihui-CyberStrike-OffSec-35B** | 36B | 1.24k | 🆕 安全研究专用 |
+| 16 | **webAI-Official/TwIL-LM3** | 3B | 13.1k | 🆕 实时更新 |
+| 17 | **Kwaipilot/KAT-Coder-V2.5-Dev** | 35B | 22.5k | 代码模型 |
+| 18 | **DeepSeek-V4-Pro** | 1.6T | 1.35M | 多模态旗舰 |
+| 19 | **poolside/Laguna-S-2.1** | 118B | 112k | 新兴模型 |
+| 20 | **prism-ml/Ternary-Bonsai-27B-gguf** | 27B | 822k | 高效量化 |
+
+### 新上线重点模型
+
+#### Qwen3.8-2.4T-A95B (阿里)
+- **参数量**: 2.4T (激活 95B)
+- **下载量**: 3.83k
+- **特点**: 阿里最新旗舰模型，2天前更新
+- **格式**: FP8, GGUF, BF16 多版本
+
+#### DeepSeek-V4-Pro-0813 (深度求索)
+- **参数量**: 1.7T
+- **下载量**: 245
+- **特点**: Pro 版本每日更新，1天前
+- **更新时间**: 2026-08-14
+
+#### NVIDIA-Nemotron-3.5-Lightning-30B (NVIDIA)
+- **参数量**: 30B (激活 3B)
+- **下载量**: 120k
+- **特点**: NVIDIA 最新高效模型，BF16 + NVFP4 双版本
+- **更新时间**: 23 小时前
+
+#### Motif-3 (Motif Technologies)
+- **参数量**: 315B
+- **下载量**: 1.29k
+- **特点**: 新兴大模型，14小时前更新
+- **更新时间**: 2026-08-14
+
+#### LiquidAI/LFM2.5-2.6B (Liquid AI)
+- **参数量**: 3B
+- **下载量**: 124k (基础版) / 246k (GGUF)
+- **特点**: 轻量高效，GGUF 量化版更受欢迎
+
+#### inclusionAI/Ling-3.0-flash (Inclusion AI)
+- **参数量**: 127B
+- **下载量**: 11.3k
+- **特点**: 新系列 Flash 版本
+
+### 小模型专精榜 (更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Qwen3.8-2.4T | 2.4T | 通用旗舰 | ⭐⭐⭐⭐⭐ | 阿里最新旗舰 |
+| NVIDIA-Nemotron-3.5-Lightning | 30B | 高效 | ⭐⭐⭐⭐⭐ | NVIDIA 优化版 |
+| LiquidAI/LFM2.5-2.6B | 3B | 轻量 | ⭐⭐⭐⭐ | 高效量化 |
+| Ternary-Bonsai-27B | 4B | 高效量化 | ⭐⭐⭐⭐ | GGUF 822k 下载 |
+| GLM-5.2 | 753B | 通用 | ⭐⭐⭐⭐ | 2.69M 下载 |
+
+### 模型趋势分析 (2026-08)
+
+1. **阿里 Qwen3.8 系列**: 2.4T 旗舰模型发布，FFN 激活参数达 95B，多种格式支持
+2. **NVIDIA Nemotron 系列**: 30B 激活 3B 高效架构，BF16/NVFP4 双精度
+3. **DeepSeek 持续更新**: Flash 版本每日迭代，Pro 版本频繁更新
+4. **量化模型流行**: GGUF 格式下载量持续增高 (LiquidAI LFM2.5 246k, Ternary-Bonsai 822k)
+5. **新兴模型涌现**: Motif-3 (315B), deepgrove/maple-preview (20B), inclusionAI/Ling-3.0-flash (127B)
+
+---
+
 ## 2026 年 08 月主流模型动态 - 2026-08-03 更新
 
 ### Hugging Face Trending 文本生成模型 (Top 20)
@@ -621,4 +704,4 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-08-03*
+*最后更新: 2026-08-15*

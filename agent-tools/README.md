@@ -410,7 +410,74 @@ Leader (capi) → 任务拆解
 
 ---
 
-## 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-03 更新
+## 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-15 更新
+
+### 团队级记忆与知识管理
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **TencentDB-Agent-Memory** | 腾讯团队级记忆中心 | 12,445 stars，将对话/文档/代码转化为四种可复用记忆资产 (Chat Memory, Skill, LLM-Wiki, Code-Graph)，跨 Agent/框架共享 |
+
+### AI 网关与路由
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OmniRoute** | 免费 MIT AI 网关 | 330+ 提供商 (90+ 免费)，1200+ 模型，Kimi/Claude/GPT/Gemini/GLM/DeepSeek/MiniMax，支持 Claude Code/Codex/Cursor/Cline/Copilot，RTK+Caveman 压缩节省 15-95% tokens |
+
+### 逆向工程与安全
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **reverse-skill** | 逆向/渗透/安全技能路由包 | AI 自动路由 + 按需自举工具链 + 自动进化经验库，支持 Claude Code/Kiro/Cursor/Cline |
+
+### 多 Agent 编排
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **orca** | 多 Agent 桌面 ADE | 并行 Agent 运行，支持订阅，桌面/移动/VPS 跨平台 |
+
+### 智能辅导
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **DeepTutor** | 终身个性化辅导 | HKUDS 出品，终身个性化辅导 AI |
+
+### 代码工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **kimi-code** | Moonshot AI 代码 CLI | 下一代 Agent 起点 |
+| **pi** | AI agent toolkit | 统一 LLM API，agent loop，TUI，coding agent CLI |
+| **t3code** | - | pingdotgg 出品 |
+
+### 知识蒸馏
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **cangjie-skill** | 内容蒸馏成 Agent Skills | 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills |
+| **book-to-skill** | PDF 转 Claude Code skill | 把技术书籍 PDF 转为可 study/reference/使用的 skill |
+
+### 设计与架构
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **archify** | Agent 架构图技能 | 生成美观可验证的架构/工作流/序列/数据流/生命周期图，自包含 HTML |
+| **hallmark** | 反 AI-slop 设计技能 | 避免生成无聊内容 |
+| **openwork** | Claude Cowork 开源替代 | different-ai 出品，powered by opencode |
+
+### SEO
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **open-seo** | 开源 Semrush/Ahrefs 替代 | SEO 分析工具 |
+
+### 代码智能
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **code-review-graph** | 本地优先代码智能图 | MCP 和 CLI 构建持久化代码地图，AI 只读关键内容，benchmark 上下文缩减 |
+
+### 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-03 更新
 
 ### 代码质量与审查
 
@@ -454,5 +521,5 @@ Leader (capi) → 任务拆解
 
 ## 持续更新
 
-- 最后更新: 2026-08-03
+- 最后更新: 2026-08-15
 - 更新频率: 每周
