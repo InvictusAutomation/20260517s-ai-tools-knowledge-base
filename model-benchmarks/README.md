@@ -60,6 +60,7 @@
 | 2026-07-06 | 更新 Hugging Face trending 模型、DeepSeek-V4-Pro/GLM-5.2 新上线 |
 | 2026-07-13 | 更新 Hugging Face trending 模型、ArXiv 新评测基准论文 |
 | 2026-07-19 | 更新 Hugging Face trending 模型、Bonsai/Ornith/Agents-A1 新上线、SEED 论文 |
+| 2026-08-17 | 更新 GPT-5.6 发布、Hugging Face trending 模型全面更新、Qwen3.8 系列崛起 |
 | 2026-07-27 | 更新 Hugging Face trending 模型、Qwen3 系列、Abot-World-0/Mage-Flow 论文 |
 
 ---
@@ -704,4 +705,98 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-08-15*
+*最后更新: 2026-08-17*
+
+---
+
+## 2026 年 08 月主流模型动态 - 2026-08-17 更新
+
+### OpenAI GPT-5.6 发布：价格性能比革命性突破
+
+**GPT-5.6** 是本周最重要的模型发布，代表了价格-性能曲线的大幅左移：
+
+#### 核心更新
+
+| 模型 | 降价幅度 | 性能定位 |
+|------|----------|----------|
+| **GPT-5.6 Luna** | **-80%** | 最快最便宜，高吞吐量场景 |
+| **GPT-5.6 Terra** | **-20%** | 均衡模型，日常任务 |
+| **GPT-5.6 Sol** | 新增 Fast 模式 | 最高智能，推理速度提升 2.5x |
+
+#### 关键数据
+
+- **BrowseComp 基准**: GPT-5.6 Luna (Extra High) 得分 84.04%，成本从 GPT-5.5 的 $33.27 降至 **$1.33**（降幅 96%）
+- **Agents' Last Exam**: GPT-5.6 Sol (低推理强度) 性能超越 GPT-5.5 (高推理强度)
+- **Fast 模式**: 比标准处理快 2.5x，仅需 2x 价格
+
+#### Responses API 新增特性
+
+- **推理持久化**: 跨调用保持推理连贯性
+- **原生压缩**: 长对话自动压缩，减少 token 消耗
+- **多 Agent 编排**: 更好的多 Agent 协作支持
+
+#### 分析
+
+GPT-5.6 的推出标志着 **Agent 经济性** 进入新阶段：过去需要旗舰模型 + 高推理成本才能完成的长周期任务，现在 Luna/Terra 就能以 1/25 的成本完成。这意味着 AI Agent 的商业化门槛大幅降低。
+
+---
+
+### Hugging Face Trending 模型 (2026-08-17)
+
+| 排名 | 模型 | 参数量 | 下载量 | 趋势 | 备注 |
+|------|------|--------|--------|------|------|
+| 1 | **Qwen3.8-27B** | 28B | 268k | 🆕 | 阿里最新主力，2天前更新 |
+| 2 | **Muse-Glimmer-30B** | 30B | 293k | 🆕 | Meta 新模型，5天前 |
+| 3 | **unsloth/Qwen3.8-27B-GGUF** | 27B | 1.95M | ⬆️ | GGUF 量化版最热 |
+| 4 | **Qwen3.8-2.4T-A95B** | 2.4T | 7.93k | → | 旗舰模型，多格式 |
+| 5 | **LTX-2.5** | - | 424k | 🆕 | Lightricks 视频生成，4小时前 |
+| 6 | **MiniMax-Music3** | 2B | 8.64k | 🆕 | MiniMax 音乐生成 |
+| 7 | **MiniMax-H3** | 33B | 2.31M | → | 视频生成旗舰 |
+| 8 | **DeepSeek-V4-Pro-0813** | 1.7T | 21.9k | 🆕 | 每日更新版 |
+| 9 | **DeepSeek-V4-Flash-0731** | 304B | 1.87M | → | 高效版本 |
+| 10 | **Kimi-K3** | 2.8T | 2.14M | → | 月之暗面多模态 |
+| 11 | **NVIDIA-Nemotron-3.5-Lightning-30B** | 18B | 196k | 🆕 | NVIDIA 高效优化 |
+| 12 | **LiquidAI/LFM2.5-2.6B** | 3B | 141k | → | 轻量高效 |
+| 13 | **Kimi-K3-GGUF** | 2.8T | 需确认 | 🆕 | 高效量化版 |
+| 14 | **dots3-note-prev** | 288B | 393 | 🆕 | 新兴模型 |
+
+### 模型趋势分析 (2026-08-17)
+
+#### 1. Qwen3.8 系列全面崛起
+
+Qwen3.8-27B 成为 Hugging Face trending 第一名（268k 下载），取代了此前的 Qwen3.6 系列：
+
+| 模型 | 参数量 | 格式 | 下载量 |
+|------|--------|------|--------|
+| Qwen3.8-27B | 28B | 原生 | 268k |
+| unsloth/Qwen3.8-27B-GGUF | 27B | GGUF | 1.95M |
+| Qwen3.8-27B-FP8 | 28B | FP8 | 353k |
+| Qwen3.8-2.4T-A95B | 2.4T | 原生/FP8 | 7.93k / 11.3k |
+
+#### 2. 视频/音频生成持续火热
+
+- **MiniMax-H3**: 2.31M 下载，视频生成旗舰地位稳固
+- **LTX-2.5**: 4 小时前更新，视频生成新版本
+- **MiniMax-Music3**: 2B 音乐生成模型
+
+#### 3. GGUF 量化版统治下载量
+
+unsloth 的 GGUF 量化版本下载量远超原生模型：
+- Qwen3.8-27B-GGUF: 1.95M (vs 原生 268k)
+- MiniMax-H3-GGUF: 204k
+- Qwen3.6-27B-Fable-Fusion-Uncensored-GGUF: 3.02M
+
+#### 4. NVIDIA 深度优化
+
+**NVIDIA-Nemotron-3.5-Lightning-30B** (18B 激活参数) 提供多种量化格式：NVFP4 (196k), BF16 (34.1k), GGUF (56.5k)，专为本地推理优化。
+
+### 小模型专精榜 (2026-08-17 更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Qwen3.8-27B | 28B | 通用旗舰 | ⭐⭐⭐⭐⭐ | Hugging Face trending #1 |
+| NVIDIA-Nemotron-3.5-Lightning | 30B | 高效推理 | ⭐⭐⭐⭐⭐ | NVIDIA 原生优化 |
+| Kimi-K3 | 2.8T | 多模态 | ⭐⭐⭐⭐ | 2.14M 下载 |
+| DeepSeek-V4-Flash | 304B | 高效推理 | ⭐⭐⭐⭐ | 1.87M 下载 |
+| LiquidAI/LFM2.5-2.6B | 3B | 轻量高效 | ⭐⭐⭐⭐ | GGUF 246k |
+| MiniMax-H3 | 33B | 视频生成 | ⭐⭐⭐⭐⭐ | 2.31M 下载 |
