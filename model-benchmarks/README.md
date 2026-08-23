@@ -705,7 +705,78 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-08-17*
+---
+
+## 2026 年 08 月主流模型动态 - 2026-08-24 更新
+
+### Hugging Face Trending 文本生成模型 (Top 20)
+
+| 排名 | 模型 | 参数量 | 下载量 | 趋势 | 备注 |
+|------|------|--------|--------|------|------|
+| 1 | **Qwen3.8-27B-OBLITERATED** | 28B | 245k | 🆕 | 12小时前更新 |
+| 2 | **Qwen3.8-27B-Uncensored-GGUF** | 27B | 1.33M | → | 未经审查版本 |
+| 3 | **Ornith-1.5-35B-A3B** | 36B | 23.5k | 🆕 | 13小时前更新 |
+| 4 | **Ornith-1.5-35B-A3B-GGUF** | 36B | 369k | 🆕 | 4天前更新 |
+| 5 | **DeepSeek-V4-Flash-0731** | 304B | 3.09M | → | 高效版本持续热门 |
+| 6 | **Ornith-1.5-9B** | 10B | 31.5k | 🆕 | 10小时前更新 |
+| 7 | **DeepSeek-V4-Pro-0813** | 1.7T | 57.9k | → | Pro 版本 |
+| 8 | **Ornith-1.5-9B-GGUF** | 9B | 359k | → | 高效量化版 |
+| 9 | **Qwen3.8-27B-Heretic-Abliterated-GGUF** | 27B | 579k | 🆕 | 3天前更新 |
+| 10 | **Qwen3.8-2.4T-A95B** | 2.4T | 18.1k | → | 阿里旗舰 |
+| 11 | **NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4** | 18B | 582k | 🆕 | NVIDIA 优化版 |
+| 12 | **LiquidAI/LFM2.5-2.6B-GGUF** | 3B | 520k | → | 高效量化版 |
+| 13 | **zai-org/GLM-5.2** | 753B | 2.69M | → | 智谱最新 |
+| 14 | **Ornith-1.5-397B** | 403B | 7.91k | 🆕 | 大杯版本 |
+| 15 | **inclusionAI/Ling-3.0-tiny** | 8B | 14.5k | 🆕 | 4天前更新 |
+
+### 新上线重点模型
+
+#### Ornith-1.5 系列 (DeepReinforce AI)
+- **Ornith-1.5-35B-A3B**: 36B 参数，23.5k 下载，13小时前更新
+- **Ornith-1.5-35B-A3B-GGUF**: 369k 下载，高效量化版
+- **Ornith-1.5-9B**: 10B 参数，31.5k 下载，10小时前更新
+- **Ornith-1.5-397B**: 403B 参数，大杯版本
+
+#### Qwen3.8 生态持续扩张
+
+| 模型 | 参数量 | 格式 | 下载量 |
+|------|--------|------|--------|
+| Qwen3.8-27B-OBLITERATED | 28B | 原生 | 245k |
+| Qwen3.8-27B-Uncensored-GGUF | 27B | GGUF | 1.33M |
+| Qwen3.8-27B-Heretic-Abliterated-GGUF | 27B | GGUF | 579k |
+| Qwen3.8-2.4T-A95B | 2.4T | 原生/FP8 | 18.1k |
+
+#### NVIDIA-Nemotron-3.5-Lightning-30B
+- **参数量**: 30B (激活 3B)
+- **下载量**: 582k (NVFP4 版本)
+- **特点**: NVIDIA 原生优化，多种量化格式
+
+### 模型趋势分析 (2026-08-24)
+
+1. **Ornith-1.5 系列全面更新**: DeepReinforce AI 密集发布 35B/9B/397B 多版本，GGUF 格式下载量持续攀升
+
+2. **Qwen3.8 生态扩张**: 多种微调/量化版本涌现 (OBLITERATED/Uncensored/Heretic/Abliterated)，反映社区活跃度
+
+3. **量化模型统治下载量**: GGUF 格式持续霸榜
+   - Qwen3.8-27B-Uncensored-GGUF: 1.33M
+   - Ornith-1.5-35B-A3B-GGUF: 369k
+   - Ornith-1.5-9B-GGUF: 359k
+
+4. **上下文数据库整合**: OpenViking 等工具推动长上下文模型需求
+
+### 小模型专精榜 (2026-08-24 更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Ornith-1.5-35B-A3B | 36B | 通用 | ⭐⭐⭐⭐⭐ | 新版本密集发布 |
+| Qwen3.8-27B | 28B | 通用旗舰 | ⭐⭐⭐⭐ | 多种微调版本 |
+| NVIDIA-Nemotron-3.5-Lightning | 30B | 高效推理 | ⭐⭐⭐⭐⭐ | NVIDIA 原生优化 |
+| LiquidAI/LFM2.5-2.6B | 3B | 轻量高效 | ⭐⭐⭐⭐ | GGUF 520k 下载 |
+| DeepSeek-V4-Flash | 304B | 高效推理 | ⭐⭐⭐⭐ | 3.09M 下载 |
+
+---
+
+*最后更新: 2026-08-24*
 
 ---
 

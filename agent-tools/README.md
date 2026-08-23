@@ -521,12 +521,25 @@ Leader (capi) → 任务拆解
 
 ## 持续更新
 
-- 最后更新: 2026-08-17
+- 最后更新: 2026-08-24
 - 更新频率: 每周
 
 ---
 
-## 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-17 更新
+## 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-24 更新
+
+### 上下文数据库与记忆
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OpenViking** | 火山引擎自进化上下文数据库 | 统一 Agent 记忆、知识 RAG 和技能，三层加载 (L0/L1/L2) 节省 token，LoCoMo 准确率 80-83%，tau2-bench 任务成功率 +6.87pp/+11.87pp |
+| **ai-memory** | 跨 Agent 长期记忆解决方案 | 支持 Claude Code/Codex/Command Code/Devin/OpenCode/Cursor 等 15+ Agent，支持跨供应商交接，quit Claude Code 继续 Codex 无需重新解释 |
+
+### Agent 工作区
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **Apache maka** | 本地优先 AI Agent 工作区 | Apache 孵化项目，将消息/工具调用/权限决策/终止事件记录为仅追加日志 |
 
 ### 本地推理与训练
 
@@ -535,24 +548,20 @@ Leader (capi) → 任务拆解
 | **unsloth** | 本地 UI 运行和训练 LLMs 和 diffusion 模型 | 支持 Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX 等，一站式本地部署 |
 | **needle** | 14MB 设备端基础模型 | 手机/可穿戴/智能家居/机器人专用，极致轻量化 |
 
-### AI 记忆与上下文
-
-| 工具 | 描述 | 特点 |
-|------|------|------|
-| **ai-memory** | 长期记忆解决方案 | 跨编码 Agent CLI 共享记忆，支持不同 Agent 供应商间交接 |
-| **ToolJet** | 开源应用生成平台 | 内置 AI Agent，用于构建内部工具、仪表盘、工作流和 AI Agent，企业级 |
-
 ### 视频生成
 
 | 工具 | 描述 | 特点 |
 |------|------|------|
 | **OpenCut** | 开源 CapCut 替代品 | 视频剪辑，开源社区驱动 |
+| **MoneyPrinterTurbo** | AI 短视频生成工具 | 根据主题或关键词一键生成高清短视频 |
 
-### 重点观察：unsloth 本地推理生态
+### 重点观察：OpenViking 上下文数据库
 
-**unsloth** 是本周 GitHub Trending 的明星项目，提供一站式本地 UI 支持运行和训练主流模型：
+**OpenViking** 是本周 GitHub Trending 明星项目（火山引擎出品）：
 
-- **支持的 LLMs**: Qwen3.8 (阿里), Kimi K3 (月之暗面), MiniMax-H3 (MiniMax), Gemma 4 (Google), DeepSeek-V4 (深度求索)
-- **支持的 Diffusion**: FLUX 系列
-- **核心价值**: 无需云端，本地运行和微调，降低成本 + 保护隐私
-- **趋势**: 本地 AI 正在从"极客玩具"走向"生产可用"，unsloth 的 UI 降低了门槛
+- **核心创新**: 记忆/资源/技能统一为虚拟文件系统 (viking:// 协议)，Agent 像开发者一样用 ls/tree/find 操作上下文
+- **三层加载**: L0 摘要 (~100 tokens) → L1 概述 (~2k tokens) → L2 详情 (按需加载)
+- **性能提升**: 
+  - 用户记忆 (LoCoMo): 准确率从 24-57% 提升至 80-83%，输入 token 减少 34.3-91.0%
+  - Agent 经验 (tau2-bench): 任务成功率 +6.87pp (零售) / +11.87pp (航空)
+- **趋势**: 上下文工程正在从"黑盒向量存储"走向"可观测文件系统"
