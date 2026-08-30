@@ -519,9 +519,64 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 08 月新出现工具 (GitHub Trending) - 2026-08-31 更新
+
+### AI 网关与路由
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **OmniRoute** | 免费 MIT AI 网关 | 350+ 提供商 (90+ 免费), 1200+ 模型, Kimi/Claude/GPT/Gemini/GLM/DeepSeek/MiniMax, Claude Code/Codex/Cursor/Cline/Copilot 集成, RTK+Caveman 压缩节省 15-95% tokens |
+
+### 记忆与知识管理
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **ai-memory** | 跨 Agent 长期记忆解决方案 | 支持 Claude Code/Codex/Command Code/Devin/OpenCode/Cursor 等 15+ Agent, 跨供应商交接 |
+| **OpenViking** | 火山引擎自进化上下文数据库 | 统一 Agent 记忆/知识 RAG 和技能, 三层加载 (L0/L1/L2) 节省 token |
+
+### 知识蒸馏
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **book-to-skill** | PDF 转 Claude Code skill | 把技术书籍 PDF 转为可 study/reference/使用的 skill |
+| **cangjie-skill** | 内容蒸馏成 Agent Skills | 把书/长视频/播客等高价值内容蒸馏成可执行的 Agent Skills |
+
+### 架构与设计
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **archify** | Agent 架构图技能 | 生成美观可验证的架构/工作流/序列/数据流/生命周期图, 自包含 HTML |
+
+### 多 Agent 编排
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **swarm-forge** | 多 Agent 协作工具 | 简单工具协调多个 AI agents, 1,613 stars 本月 |
+
+### 设备端模型
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **needle** | 14MB 设备端基础模型 | 手机/可穿戴/智能家居/机器人专用, 极致轻量化 |
+
+### 效率工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **i-have-adhd** | ADHD-friendly 输出 | 阻止 coding agent bury the answer, 专注关键信息 |
+| **pi** | AI agent toolkit | 统一 LLM API, agent loop, TUI, coding agent CLI |
+
+### Claude 生态
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **claude-plugins-community** | Claude 插件社区 | Claude Cowork 和 Claude Code 社区插件市场 |
+
+---
+
 ## 持续更新
 
-- 最后更新: 2026-08-24
+- 最后更新: 2026-08-31
 - 更新频率: 每周
 
 ---

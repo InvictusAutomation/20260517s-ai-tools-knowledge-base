@@ -776,7 +776,78 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-08-24*
+---
+
+## 2026 年 08 月主流模型动态 - 2026-08-31 更新
+
+### Hugging Face Trending 文本生成模型 (Top 20)
+
+| 排名 | 模型 | 参数量 | 下载量 | 趋势 | 备注 |
+|------|------|--------|--------|------|------|
+| 1 | **Qwen/Qwen3-0.6B** | 0.8B | 22.5M | → | Qwen3 最小模型 |
+| 2 | **trl-internal-testing/tiny-Qwen2ForCausalLM-2.5** | 2.43M | 16.6M | 🆕 | 测试模型 |
+| 3 | **openai-community/gpt2** | 0.1B | 14.4M | → | 经典模型 |
+| 4 | **Qwen/Qwen3-8B** | 8B | 13.7M | → | Qwen3 基础版 |
+| 5 | **unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF** | 31B | 12.8M | → | 高效量化版 |
+| 6 | **facebook/opt-125m** | 0.1B | 11.4M | → | 经典小模型 |
+| 7 | **nvidia/Qwen3.6-35B-A3B-NVFP4** | 19B | 11.2M | 🆕 | NVIDIA 优化版, 1天前更新 |
+| 8 | **Qwen/Qwen2.5-7B-Instruct** | 8B | 10.8M | → | 指令模型 |
+| 9 | **Qwen/Qwen2.5-1.5B-Instruct** | 2B | 7.87M | → | 小型指令模型 |
+| 10 | **Qwen/Qwen2.5-3B-Instruct** | 3B | 7.51M | → | 中型指令模型 |
+| 11 | **farbodtavakkoli/OTel-2.0-LLM-31B-IT** | 32B | 6.79M | 🆕 | 6天前更新 |
+| 12 | **meta-llama/Llama-3.2-1B-Instruct** | 1B | 6.66M | → | Llama 小模型 |
+| 13 | **openai/gpt-oss-20b** | 21B | 6.52M | → | OpenAI 开源 |
+| 14 | **Qwen/Qwen2.5-0.5B-Instruct** | 0.5B | 6.29M | → | 超小模型 |
+| 15 | **meta-llama/Llama-3.1-8B-Instruct** | 8B | 5.94M | → | Llama 3.1 |
+| 16 | **openai/gpt-oss-120b** | 117B | 5.31M | → | OpenAI 大杯 |
+| 17 | **Qwen/Qwen3-4B** | 4B | 5.25M | → | Qwen3 小杯 |
+| 18 | **Qwen/Qwen3-32B** | 33B | 4.82M | → | Qwen3 大杯 |
+| 19 | **dphn/dolphin-2.9.1-yi-1.5-34b** | 34B | 4.81M | → | Yi 系列微调 |
+| 20 | **deepseek-ai/DeepSeek-V4-Flash-0731** | 304B | 4.58M | → | 高效版本 |
+
+### 新上线重点模型 (本月)
+
+#### nvidia/Qwen3.6-35B-A3B-NVFP4 (NVIDIA)
+- **参数量**: 19B (激活 3B)
+- **下载量**: 11.2M
+- **特点**: NVIDIA 原生优化, NVFP4 量化格式
+- **更新时间**: 1 天前
+
+#### trl-internal-testing/tiny-Qwen2ForCausalLM-2.5
+- **参数量**: 2.43M
+- **下载量**: 16.6M
+- **特点**: Qwen2 微小测试模型
+
+#### farbodtavakkoli/OTel-2.0-LLM-31B-IT
+- **参数量**: 32B
+- **下载量**: 6.79M
+- **特点**: OTel 专业模型, 6天前更新
+
+### 模型趋势分析 (2026-08-31)
+
+1. **Qwen3 系列持续霸榜**: 前 20 名中 Qwen 家族占 9 席, 从 0.6B 到 32B 全覆盖
+
+2. **NVIDIA 深度优化**: Qwen3.6-35B-A3B-NVFP4 挤入前 10, 1天前更新
+
+3. **量化模型持续热门**: unsloth 的 GGUF 量化版本保持高下载量
+
+4. **DeepSeek 稳定输出**: DeepSeek-V4-Flash-0731 保持 4.58M 下载
+
+5. **OpenAI 开源系列**: gpt-oss-20b (6.52M) 和 gpt-oss-120b (5.31M) 保持稳定
+
+### 小模型专精榜 (2026-08-31 更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Qwen3-0.6B | 0.8B | 边缘设备 | ⭐⭐⭐⭐⭐ | 22.5M 下载, 最小最强 |
+| Qwen3-Coder-30B-A3B | 31B | 代码生成 | ⭐⭐⭐⭐⭐ | GGUF 12.8M 下载 |
+| Qwen3.6-35B-A3B-NVFP4 | 19B | 高效推理 | ⭐⭐⭐⭐⭐ | NVIDIA 原生优化 |
+| DeepSeek-V4-Flash | 304B | 高效推理 | ⭐⭐⭐⭐ | 4.58M 下载 |
+| Llama-3.2-1B | 1B | 轻量 | ⭐⭐⭐⭐ | 6.66M 下载 |
+
+---
+
+*最后更新: 2026-08-31*
 
 ---
 
