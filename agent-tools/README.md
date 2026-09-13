@@ -574,6 +574,58 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 09 月新出现工具 (GitHub Trending) - 2026-09-13 更新
+
+### 上下文与记忆优化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **context-mode** | 上下文窗口优化 | 沙箱化工具输出 (98% 减少)，持久化 session memory，MCP + hooks 跨 17 平台路由 |
+
+### Agent 性能优化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **ECC** | Agent harness 性能优化系统 | Skills, instincts, memory, security, research-first development for Claude Code, Codex, Opencode, Cursor |
+| **i-have-adhd** | ADHD-friendly 输出 | 阻止 coding agent bury the answer，专注关键信息 |
+
+### 架构与设计
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **archify** | Agent 架构图技能 | 生成美观可验证的架构/工作流/序列/数据流/生命周期图，自包含 HTML |
+
+### 内容处理
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **humanizer** | 移除 AI 写作痕迹 | 移除 20+ 种 AI slop 模式 |
+| **no-ai-slop** | AI slop 移除工具 | 移除写作中 20+ 种 AI 模式 |
+
+### 开发工具
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **worktrunk** | Git worktree 管理 CLI | 并行 AI agent 工作流设计 |
+| **firstmate** | 多 Agent 协作工具 | Talk to one agent, ship with a crew |
+
+### 视频与 CAD
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **text-to-cad** | CAD/CAE/CAM agent skills | AI 生成 CAD 设计 |
+| **hyperframes** | HeyGen 视频生成框架 | Agent 专用 HTML 转视频 |
+
+### 重点观察：Agent 性能优化成为新热点
+
+**ECC** (Agent harness performance optimization system) 本周获得关注：
+
+- **核心功能**: Skills, instincts, memory, security, research-first development
+- **支持平台**: Claude Code, Codex, Opencode, Cursor
+- **趋势**: Agent 工具链正在从"单一工具"走向"完整开发栈"
+
+---
+
 ## 2026 年 09 月新出现工具 (GitHub Trending) - 2026-09-11 更新
 
 ### Cursor 官方插件生态
