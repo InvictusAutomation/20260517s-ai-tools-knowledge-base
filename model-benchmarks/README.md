@@ -60,6 +60,7 @@
 | 2026-07-06 | 更新 Hugging Face trending 模型、DeepSeek-V4-Pro/GLM-5.2 新上线 |
 | 2026-07-13 | 更新 Hugging Face trending 模型、ArXiv 新评测基准论文 |
 | 2026-07-19 | 更新 Hugging Face trending 模型、Bonsai/Ornith/Agents-A1 新上线、SEED 论文 |
+| 2026-09-21 | 更新 Hugging Face trending 模型、ArXiv 新论文 (dQwen3.5, SAFARI, D-Quant)、Ternary-Bonsai-2 |
 | 2026-08-17 | 更新 GPT-5.6 发布、Hugging Face trending 模型全面更新、Qwen3.8 系列崛起 |
 | 2026-07-27 | 更新 Hugging Face trending 模型、Qwen3 系列、Abot-World-0/Mage-Flow 论文 |
 
@@ -1035,7 +1036,103 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-09-11*
+*最后更新: 2026-09-21*
+
+---
+
+## 2026 年 09 月学术前沿 (ArXiv 新论文) - 2026-09-21 更新
+
+### 扩散语言模型与架构创新
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **dQwen3.5: Hybrid-Attention Diffusion Language Models** | - | 基于 Qwen3.5 的混合注意力扩散语言模型 (0.8B/2B/4B/9B)，Hybrid AR+RNN backbone 可将收敛速度提升 2x |
+| **D-Quant: Driftable Entropy Coding for KV Cache Quantization** | - | 可漂移熵编码解决 KV Cache 量化问题，将变长编码转为固定大小 bitstream，支持并行反量化 |
+
+### 安全与评测基准
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **SAFARI: Safety-Aware Functional Automotive Risk Inference** | - | 汽车 HARA 安全分析基准，3,000 工业案例，9 个前沿模型最高 ASIL macro-F1 仅 0.261，CoT 提示反而降低分类准确率。EMNLP 2026 Industry Track 接收 |
+| **Benchmarking LLM Compliance with China AI Generated Content Regulations** | - | 中国 AIGC 合规评测，20 个模型，2,303 题覆盖六维度，发现国际模型在标准中文问题上也表现出高合规率 |
+| **HerHealthEval: Multilingual Women's Health Communication** | - | 多语言女性健康评测，法语/阿拉伯语 under-triage 达 0.994，语言不变风险标签可降至 0.57 |
+| **Embedding Models Measure in Peculiar Ways** | - | 发现 embedding 对物理量的表示与字符串相似度高度相关，而非真实物理测量 |
+
+### 推理与优化
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Evolution or Illusion? Rethinking Evaluation in LLM Evolutionary Search** | - | 发现 LLM 进化搜索中，seed 数 vs iteration 数的最优分配随任务和预算变化，当前论文只报告单一数据点导致排名不可靠 |
+| **Summarization Bias: LLM Label Collapse in Told-Mode** | - | 发现 LLM 存在"摘要偏差"：在 told 模式（显式陈述）上评分高于 shown 模式（隐式暗示），这对 LLM-as-judge 有重要影响 |
+
+### 垂直领域
+
+| 论文 | 机构 | 核心贡献 |
+|------|------|----------|
+| **Edustories: AI in Classroom Practices** | - | 1492 个教师案例，最强模型预测课堂干预成功率准确率仅 58%（vs 人类专家 64%） |
+| **UniPolicy: Unified Objective-Specific Policies for Search Advertising** | - | 搜索广告多目标策略对齐框架，CTR +0.71%，RPS +1.58%，广告收入 +1.32% |
+
+---
+
+## 2026 年 09 月主流模型动态 - 2026-09-21 更新
+
+### Hugging Face Trending 文本生成模型 (Top 15)
+
+| 排名 | 模型 | 参数量 | 下载量 | 趋势 | 备注 |
+|------|------|--------|--------|------|------|
+| 1 | **prism-ml/Ternary-Bonsai-2-27B-gguf** | 27B | 1.91M | 🆕 | 3天前更新，高效量化新版本 |
+| 2 | **deepseek-ai/DeepSeek-V4.1-Flash** | 763B | 497k | → | 多模态高效版 |
+| 3 | **XingChen-AGI/Xing4.0-29B-A4B** | 31B | 12.6k | 🆕 | 2天前更新 |
+| 4 | **Qwen/Qwen3.8-27B** | 28B | 7.33M | → | 阿里主力，8月14日更新 |
+| 5 | **m-a-p/YuE2-3B** | 4B | 17.4k | → | 音频生成 |
+| 6 | **ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF** | 27B | 1.22M | → | 高效量化版 |
+| 7 | **Lightricks/LTX-2.5** | - | 1.61M | → | 视频生成 |
+| 8 | **unsloth/Qwen3.8-27B-GGUF** | 27B | 6.94M | → | 量化版持续霸榜 |
+| 9 | **DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-GGUF** | 27B | 1.3M | → | 微调量化版 |
+| 10 | **openbmb/MiniCPM5-2B** | 3B | 421k | → | 面壁小钢炮 |
+| 11 | **Qwen/Qwen3.8-Flash-Next** | 180B | 761k | → | Flash 高效版 |
+| 12 | **prism-ml/Ternary-Bonsai-2-27B-mlx-2bit** | 27B | 30k | 🆕 | MLX 2bit 量化 |
+| 13 | **meta-llama/Llama-3.1-8B-Instruct** | 8B | 5.91M | → | Llama 经典 |
+| 14 | **MiniMaxAI/MiniMax-H3** | 33B | 4.06M | → | 视频生成旗舰 |
+| 15 | **TokenRhythm/NeoHorse-1-9B** | 9B | 11.9k | → | 新兴模型 |
+
+### 新上线重点模型
+
+#### Ternary-Bonsai-2-27B (Prism-ML)
+- **参数量**: 27B (4B 有效)
+- **下载量**: 1.91M (GGUF) / 30k (MLX 2bit)
+- **特点**: 高效三元量化模型新版本，支持 GGUF 和 MLX 2bit 双格式
+
+#### Xing4.0-29B-A4B (XingChen-AGI)
+- **参数量**: 31B (激活 4B)
+- **下载量**: 12.6k (2天前更新)
+- **特点**: 新兴 MoE 模型，专注于高效推理
+
+### 模型趋势分析 (2026-09-21)
+
+1. **Ternary-Bonsai 进入第二版**: 27B 参数压缩到 4B 有效精度，GGUF 格式 1.91M 下载量，MLX 2bit 版本首次出现
+
+2. **Qwen3.8 生态持续稳固**: 原生版 7.33M 下载，GGUF 量化版 6.94M 下载，双双霸榜
+
+3. **视频生成格局稳定**: MiniMax-H3 (4.06M) 和 LTX-2.5 (1.61M) 保持高位
+
+4. **高效量化仍是主流**: 前 15 名中 GGUF/MLX 量化版本占据 5 席
+
+5. **本周 ArXiv 重点**: dQwen3.5 探索 AR+RNN 混合架构的扩散语言模型；SAFARI 揭示 LLM 在工业安全场景的严重不足 (ASIL F1 仅 0.261)；D-Quant 解决 KV Cache 量化的变长编码问题
+
+### 小模型专精榜 (2026-09-21 更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Ternary-Bonsai-2-27B | 4B 有效 | 高效量化 | ⭐⭐⭐⭐⭐ | GGUF 1.91M 下载 |
+| Qwen3.8-27B-GGUF | 27B | 通用 | ⭐⭐⭐⭐⭐ | 6.94M 下载持续霸榜 |
+| MiniCPM5-2B | 3B | 轻量高效 | ⭐⭐⭐⭐ | 面壁小钢炮最新版 |
+| MiniMax-H3 | 33B | 视频生成 | ⭐⭐⭐⭐⭐ | 4.06M 下载 |
+| DeepSeek-V4.1-Flash | 763B | 多模态 | ⭐⭐⭐⭐ | 497k 下载 |
+
+---
+
+
 
 ---
 

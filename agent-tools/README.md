@@ -684,9 +684,47 @@ Leader (capi) → 任务拆解
 
 ---
 
+## 2026 年 09 月新出现工具 (GitHub Trending) - 2026-09-21 更新
+
+### 计算机自动化 (Computer-Use 2.0)
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **cua** | 开源 Computer-Use 2.0 框架 | 跨 OS 驱动、云端隔离桌面、macOS 本地 VM、CUA-S1 专用决策模型 + 评测基准 |
+| **Agent-Native** | Agent 原生应用开发框架 | BuilderIO 出品，UI 和 Agent 共享 Actions 层，TypeScript，PostgreSQL 后端 |
+
+### GPU 训练与编排
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **higgsfield** | 万亿参数分布式训练框架 | 容错 GPU 编排，ZeRO-3 / FSDP 支持，GitHub Actions 集成，5.2k stars 本周 |
+
+### 安全审计
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **security-audit-skill** | 多阶段安全审计技能 | Cloudflare 出品，6 阶段结构化审计 (侦察→狩猎→验证→结构化输出→独立验证→报告)，17.7k stars，2.3k stars 今日 |
+
+### Agent 平台化
+
+| 工具 | 描述 | 特点 |
+|------|------|------|
+| **agent-native** | Agent 原生 TypeScript 框架 | Actions 同时服务 UI + Agent + HTTP + MCP + A2A + CLI，内置 Auth/权限/Skills/Memory/Automations |
+| **ECC** | Agent 性能优化系统 | Skills, instincts, memory, security，支持 Claude Code/Codex/Opencode/Cursor |
+
+### 重点观察：安全审计 + 计算机自动化成为本周热点
+
+**Cloudflare security-audit-skill** (17.7k stars, 2.3k today) 和 **cua** 的出现标志着：
+
+1. **安全审计专业化**: 从通用代码审查走向 6 阶段结构化审计，狩猎类覆盖 13+ 领域 (AI/LLM、Web/Auth、桌面/移动、云/CI、供应链等)
+2. **Computer-Use 走向生产**: cua 不再只是 demo，而是提供云端隔离桌面、本地 VM、专用决策模型 (CUA-S1) 的完整平台
+3. **Agent 平台化**: Agent-Native 的"共享 Actions"设计理念 — agent 和 UI 调用同一层代码，而非 agent 模拟 UI 点击
+
+---
+
 ## 持续更新
 
-- 最后更新: 2026-09-11
+- 最后更新: 2026-09-21
 - 更新频率: 每周
 
 ---
