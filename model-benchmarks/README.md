@@ -1227,3 +1227,60 @@ unsloth 的 GGUF 量化版本下载量远超原生模型：
 | DeepSeek-V4-Flash | 304B | 高效推理 | ⭐⭐⭐⭐ | 1.87M 下载 |
 | LiquidAI/LFM2.5-2.6B | 3B | 轻量高效 | ⭐⭐⭐⭐ | GGUF 246k |
 | MiniMax-H3 | 33B | 视频生成 | ⭐⭐⭐⭐⭐ | 2.31M 下载 |
+
+---
+
+## 2026 年 09 月主流模型动态 - 2026-09-28 更新
+
+### 本周重点：安全审计工具崛起 + 浏览器自动化升级
+
+基于 GitHub Trending 观测，本周 AI 工具生态呈现以下趋势：
+
+| 趋势 | 观察 |
+|------|------|
+| **安全审计模型崛起** | Cloudflare security-audit-skill (22,234 stars) 带动安全类 AI 工具热度 |
+| **BrowserSkill 发布** | 腾讯推出 AI Agent 浏览器控制工具，支持真实登录态 |
+| **magnitude 推理引擎** | 开源推理引擎自动推荐最优模型，降低本地部署门槛 |
+| **Qwen3.8 生态稳固** | 阿里 Qwen 系列持续霸榜，GGUF 量化版仍是主流 |
+| **视频生成稳定** | MiniMax-H3 和 LTX-2.5 保持高下载量 |
+
+### 本周重点工具更新
+
+#### 1. security-audit-skill (Cloudflare)
+- **22,234 stars**, 19,124 stars 本月
+- 6 阶段结构化安全审计流程
+- 覆盖 13+ 安全领域 (AI/LLM、Web/Auth、桌面/移动、云/CI、供应链等)
+
+#### 2. magnitude (Magnitude Dev)
+- 开源推理引擎
+- 自动分析机器配置 (Apple Silicon/NVIDIA/AMD/CPU)
+- 推荐最优开源模型并自动调优
+
+#### 3. BrowserSkill (腾讯)
+- CLI + 浏览器扩展方案
+- 支持任意 shell-capable AI Agent
+- 调用真实登录态浏览器
+
+### 模型评测趋势
+
+| 领域 | 趋势 |
+|------|------|
+| **代码模型** | Qwen2.5-Coder/3 系列持续领先 |
+| **多模态** | DeepSeek-V4.1-Flash、GLM-5.3 系列更新频繁 |
+| **高效量化** | GGUF/MLX 格式持续统治下载量 |
+| **视频生成** | MiniMax-H3、LTX-2.5 格局稳定 |
+| **Agent 专用** | Nex-N2.5 系列完整覆盖 (mini/Pro/Max) |
+
+### 小模型专精榜 (2026-09-28 更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Ternary-Bonsai-2-27B | 4B 有效 | 高效量化 | ⭐⭐⭐⭐⭐ | GGUF 持续热门 |
+| Qwen3.8-27B-GGUF | 27B | 通用 | ⭐⭐⭐⭐⭐ | 量化版持续霸榜 |
+| MiniCPM5-2B | 3B | 轻量高效 | ⭐⭐⭐⭐ | 面壁小钢炮 |
+| MiniMax-H3 | 33B | 视频生成 | ⭐⭐⭐⭐⭐ | 视频生成旗舰 |
+| Nex-N2.5-mini | 35B | Agent 专用 | ⭐⭐⭐⭐⭐ | Agent 模型家族 |
+
+---
+
+*最后更新: 2026-09-28*
