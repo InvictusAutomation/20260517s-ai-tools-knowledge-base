@@ -1036,7 +1036,70 @@ Qwen3 系列成为 Hugging Face 下载量最高的模型系列:
 
 ---
 
-*最后更新: 2026-09-21*
+## 2026 年 10 月主流模型动态 - 2026-10-05 更新
+
+### Hugging Face Trending 文本生成模型 (Top 20)
+
+| 排名 | 模型 | 参数量 | 下载量 | 趋势 | 备注 |
+|------|------|--------|--------|------|------|
+| 1 | **Qwen/Qwen3-0.6B** | 0.8B | 29.6M | → | Qwen3 最小模型，持续霸榜 |
+| 2 | **openai-community/gpt2** | 0.1B | 15.5M | → | 经典模型 |
+| 3 | **Qwen/Qwen3-8B** | 8B | 10.1M | → | Qwen3 基础版 |
+| 4 | **Qwen/Qwen2.5-0.5B-Instruct** | 0.5B | 8.67M | → | 小型指令模型 |
+| 5 | **trl-internal-testing/tiny-Qwen2ForCausalLM-2.5** | 2.4M | 8.54M | → | 测试模型 |
+| 6 | **Qwen/Qwen2.5-7B-Instruct** | 8B | 8.35M | → | 指令模型 |
+| 7 | **unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF** | 31B | 7.8M | → | 高效量化版 |
+| 8 | **Qwen/Qwen3-4B** | 4B | 7.67M | → | Qwen3 小杯 |
+| 9 | **meta-llama/Llama-3.2-1B-Instruct** | 1B | 7.58M | → | Llama 小模型 |
+| 10 | **Qwen/Qwen2.5-1.5B-Instruct** | 2B | 7.26M | → | 小型指令模型 |
+| 11 | **facebook/opt-125m** | 0.1B | 6.75M | → | 经典小模型 |
+| 12 | **RadixArk/Kimi-K3-DSpark** | 2B | 6.55M | → | Kimi K3 轻量版 |
+| 13 | **openai/gpt-oss-20b** | 21B | 6.43M | → | OpenAI 开源 |
+| 14 | **meta-llama/Llama-3.1-8B-Instruct** | 8B | 6.11M | → | Llama 3.1 |
+| 15 | **nvidia/Qwen3.6-35B-A3B-NVFP4** | 19B | 6.05M | → | NVIDIA 优化版 |
+| 16 | **ornith-ai/Ornith-1.5-9B-GGUF** | 9B | 5.05M | → | 高效量化版 |
+| 17 | **dphn/dolphin-2.9.1-yi-1.5-34b** | 34B | 4.73M | → | Yi 系列微调 |
+| 18 | **deepseek-ai/DeepSeek-V4-Flash-0731** | 304B | 4.5M | → | 高效版本 |
+| 19 | **openai/gpt-oss-120b** | 117B | 4.45M | → | OpenAI 大杯 |
+| 20 | **Qwen/Qwen2.5-3B-Instruct** | 3B | 4.21M | → | 中型指令模型 |
+
+### 新上线重点模型
+
+#### RadixArk/Kimi-K3-DSpark (月之暗面)
+- **参数量**: 2B
+- **下载量**: 6.55M
+- **特点**: Kimi K3 轻量版本，保持 K3 核心能力
+
+#### prism-ml/Ternary-Bonsai-2-27B-gguf (Prism-ML)
+- **参数量**: 27B (4B 有效)
+- **下载量**: 4.05M
+- **特点**: 高效三元量化模型，持续更新
+
+### 模型趋势分析 (2026-10)
+
+1. **Qwen3 系列持续统治**: 前 20 名中 Qwen 家族占 9 席，从 0.6B 到 32B 全覆盖
+
+2. **Qwen3-0.6B 持续霸榜**: 29.6M 下载量，远超第二名 gpt2 的 15.5M
+
+3. **NVIDIA 深度优化**: Qwen3.6-35B-A3B-NVFP4 保持 6.05M 下载
+
+4. **量化模型仍是主流**: GGUF 格式下载量持续增高
+
+5. **DeepSeek 稳定输出**: DeepSeek-V4-Flash-0731 保持 4.5M 下载
+
+### 小模型专精榜 (2026-10-05 更新)
+
+| 模型 | 参数 | 专精领域 | 评分 | 备注 |
+|------|------|----------|------|------|
+| Qwen3-0.6B | 0.8B | 边缘设备 | ⭐⭐⭐⭐⭐ | 29.6M 下载, 最小最强 |
+| Qwen3-Coder-30B-A3B | 31B | 代码生成 | ⭐⭐⭐⭐⭐ | GGUF 7.8M 下载 |
+| Ternary-Bonsai-2-27B | 4B 有效 | 高效量化 | ⭐⭐⭐⭐ | 4.05M 下载 |
+| Kimi-K3-DSpark | 2B | 轻量多模态 | ⭐⭐⭐⭐ | 6.55M 下载 |
+| Llama-3.2-1B | 1B | 轻量 | ⭐⭐⭐⭐ | 7.58M 下载 |
+
+---
+
+*最后更新: 2026-10-05*
 
 ---
 
